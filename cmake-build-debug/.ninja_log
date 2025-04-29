@@ -1,0 +1,6 @@
+# ninja log v6
+2	687	1745576011970917547	CMakeFiles/01Praktikum.dir/main.cpp.o	325dd4c28add1bf6
+4	693	1745576011972135411	CMakeFiles/01Praktikum.dir/stack.cpp.o	292bffdfa1fb45c
+5	558	1745576032223663741	CMakeFiles/01Praktikum.dir/main.cpp.o	325dd4c28add1bf6
+5	592	1745576032224272840	CMakeFiles/01Praktikum.dir/xmlloader.cpp.o	1d9e40e49b297ae4
+592	713	1745576032811234750	01Praktikum	b8607c195da98e82

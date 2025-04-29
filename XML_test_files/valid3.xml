@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<X3D>
+    <Scene>
+        <Viewpoint position="0 0 12" />
+        <!-- Nach Kamera folgen nun drei nebeneinanderliegende 3D-Objekte -->
+        <Transform translation="-3 0 0">
+            <Shape>
+                <Appearance>
+                    <Material diffuseColor="1 0 0" specularColor=".4 .4 .4" />
+                </Appearance>
+                <Box />
+            </Shape>
+        </Transform>
+        <Transform translation="0 0 0">
+            <Shape>
+                <Appearance>
+                    <Material diffuseColor="0 1 0" specularColor=".4 .4 .4" />
+                </Appearance>
+                <Sphere />
+            </Shape>
+        </Transform>
+        <Transform translation="3 0 0">
+            <Shape>
+                <Appearance>
+                    <Material diffuseColor="0 0 1" specularColor=".4 .4 .4" />
+                </Appearance>
+                <Cone /> 
+            </Shape>
+        </Transform>
+    </Scene>
+</X3D>

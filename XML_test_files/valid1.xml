@@ -1,0 +1,24 @@
+<X3D>
+    <Scene>
+        <Transform>
+            <Shape>
+                <Box>
+                </Box>
+            </Shape>
+        </Transform>
+        <Transform>
+            <Shape>
+                <Appearance>
+                </Appearance>
+                <Sphere>
+                </Sphere>
+            </Shape>
+        </Transform>
+        <Transform>
+            <Shape>
+                <Cone>
+                </Cone> 
+            </Shape>
+        </Transform>
+    </Scene>
+</X3D>

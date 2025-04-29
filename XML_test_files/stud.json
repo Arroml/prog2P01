@@ -1,0 +1,34 @@
+[
+    {
+      "Nachname": "Musterfrau",
+      "Vorname": "Eva",
+      "MatrNr": 1120763,
+      "Semester": "Bachelor 2",
+      "Gruppe": "Do45x",
+      "Note": "2,0"
+    },
+    {
+      "Nachname": "Mustermann",
+      "Vorname": "Max",
+      "MatrNr": 1119771,
+      "Semester": "Bachelor 2",
+      "Gruppe": "Do45x",
+      "Note": "1,0"
+    },
+    {
+      "Nachname": "Taraszowa",
+      "Vorname": "Olga",
+      "MatrNr": 1120668,
+      "Semester": "Bachelor 2",
+      "Gruppe": "Do45y",
+      "Note": "1,0"
+    },
+    {
+      "Nachname": "Schmidt",
+      "Vorname": "Tobias",
+      "MatrNr": 1120968,
+      "Semester": "Bachelor 2",
+      "Gruppe": "Do45y",
+      "Note": "2,0"
+    }
+]

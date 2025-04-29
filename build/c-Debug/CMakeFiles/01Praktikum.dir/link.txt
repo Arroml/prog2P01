@@ -1,0 +1,1 @@
+/usr/bin/llvm-g++ -DQT_QML_DEBUG -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/01Praktikum.dir/main.cpp.o CMakeFiles/01Praktikum.dir/xmlloader.cpp.o CMakeFiles/01Praktikum.dir/stack.cpp.o -o 01Praktikum

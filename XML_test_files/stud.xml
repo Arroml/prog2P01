@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Teilnehmer>
+  <Eintrag>
+    <Nachname>Musterfrau</Nachname>
+    <Vorname>Eva</Vorname>
+    <MatrNr>1120763</MatrNr>
+    <Semester>Bachelor 2</Semester>
+    <Gruppe>Do45x</Gruppe>
+    <Note>2,0</Note>
+  </Eintrag>
+  <Eintrag>
+    <Nachname>Mustermann</Nachname>
+    <Vorname>Max</Vorname>
+    <MatrNr>1119771</MatrNr>
+    <Semester>Bachelor 2</Semester>
+    <Gruppe>Do45x</Gruppe>
+    <Note>1,0</Note>
+  </Eintrag>
+  <Eintrag>
+    <Nachname>Taraszowa</Nachname>
+    <Vorname>Olga</Vorname>
+    <MatrNr>1120668</MatrNr>
+    <Semester>Bachelor 2</Semester>
+    <Gruppe>Do45y</Gruppe>
+    <Note>1,0</Note>
+  </Eintrag>
+  <Eintrag>
+    <Nachname>Schmidt</Nachname>
+    <Vorname>Tobias</Vorname>
+    <MatrNr>1120968</MatrNr>
+    <Semester>Bachelor 2</Semester>
+    <Gruppe>Do45y</Gruppe>
+    <Note>2,0</Note>
+  </Eintrag>
+</Teilnehmer>

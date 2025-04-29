@@ -1,0 +1,13 @@
+<X3D>
+    <Scene>
+        <Viewpoint>
+        </Viewpoint>
+            <Shape>
+            </Shape>
+        </Transform>
+        <Transform>
+            <Shape>
+            </Shape>
+        </Transform>
+    </Scene>
+</X3D>

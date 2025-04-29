@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<X3D>
+    <Scene>
+        <Transform translation>
+            <Shape>
+                <Appearance>
+                    <Material diffuseColor specularColor />
+                </Appearance>
+                <Sphere>
+                </Sphere>
+            </Shape>
+        </Transform>
+    </Scene>
+</X3D>
+<SVG>
+</SVG>
+<!-- Fehlerhaft, da keine Attributwerte und mehr als ein Wurzelelement! -->
+<!-- Diese beiden Fehler muessen hier aber noch nicht betrachtet werden -->

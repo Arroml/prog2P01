@@ -1,0 +1,7 @@
+/Users/alexanderroman/Projekte/prog2/01Praktikum/cmake-build-debug/CMakeFiles/01Praktikum.dir
+/Users/alexanderroman/Projekte/prog2/01Praktikum/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/alexanderroman/Projekte/prog2/01Praktikum/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/alexanderroman/Projekte/prog2/01Praktikum/cmake-build-debug/CMakeFiles/list_install_components.dir
+/Users/alexanderroman/Projekte/prog2/01Praktikum/cmake-build-debug/CMakeFiles/install.dir
+/Users/alexanderroman/Projekte/prog2/01Praktikum/cmake-build-debug/CMakeFiles/install/local.dir
+/Users/alexanderroman/Projekte/prog2/01Praktikum/cmake-build-debug/CMakeFiles/install/strip.dir
