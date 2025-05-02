@@ -1,22 +1,27 @@
 #include <filesystem>
 #include <iostream>
+#include <string.h>
 #include "xmlloader.h"
-#include "stack"
+//#include "stack"
 
 
 int main()
 {
-    std::cout <<"1       show File\n"
-              <<"0      Programm beenden\n";
     int eingabe;
+    std::string filename;
     do{
+        std::cout <<"1       show File\n"
+                  <<"0      Programm beenden\n";
         std::cin>>eingabe;
         switch (eingabe) {
         case 1:
         {
             XMLLoader loader;
+
+            std::cout<<"Filename (without datatype): ";
+            std::cin>>filename;
             try {
-                loader.load("../../XML_test_files/valid1.xml");
+                loader.load("../../XML_test_files/"+filename+".xml");
             } catch (std::runtime_error er) {
                 std::cerr<<er.what();
             }

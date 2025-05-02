@@ -1,6 +1,7 @@
 #ifndef XMLLOADER_H
 #define XMLLOADER_H
 #include <iostream>
+#include <fstream>
 
 class XMLLoader
 {

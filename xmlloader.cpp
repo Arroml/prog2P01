@@ -1,8 +1,9 @@
-#include <fstream>
+//#include <fstream>
 #include <map>
-#include <iostream>
+//#include <iostream>
+
 #include "xmlloader.h"
-#include "stack"
+//#include "stack"
 #include "stack.h"
 
 XMLLoader::XMLLoader() {}
@@ -10,23 +11,37 @@ XMLLoader::XMLLoader() {}
 void XMLLoader::load(std::string file)
 {
 
-    std::map<std::string,std::string> atrubutes;
+    std::map<std::string,std::string> attributes;
     Stack stack;
     TagType type;
     std::string line;
+    std::string preline;
     std::ifstream ifs(file);
     if (ifs.is_open())
     {
         int zahl = 1;
         while (std::getline(ifs, line))
         {
+            /*  [&] {
+                for (int i = 0; i < line.size(); i++) {
+                if (line[i]=='<' && line[i+1]=='?'){
+                    return;
+                }
+            }
+            }(); */
+        /*    if (line[0]=='<' && line[1]=='?'){
+                continue;
+            }*/
+
             tagName(line, type);
+           // std::cout<<line<<std::endl;       Ausgabe des Files
 
             switch (type) {
             case END_TAG:
                 if (stack.isEmpty()){
 
                     std::cout << "Falsch in line : " << zahl << std::endl ;
+                    std::cout << line << std::endl;
                 }
                 if (! stack.isEmpty()){
                     std::string comp1, comp2;
@@ -55,11 +70,13 @@ void XMLLoader::load(std::string file)
 
                     if (comp1 != comp2){
 
-                        std::cout<<"Falsch in line : " << zahl << std::endl;
+                        std::cout<<"Falsch in line : " << zahl-1 << std::endl;
+                        std::cout << line << std::endl;
                         return;
                     }
 
                 }
+                preline = line;
                 zahl ++;
                 break;
 
@@ -88,7 +105,7 @@ void XMLLoader::load(std::string file)
                     }
                 }
 
-
+                preline = line;
                 zahl ++;
                 break;
             }
@@ -117,11 +134,6 @@ void XMLLoader::load(std::string file)
                                     j++;
                                 }
                                 std::cout <<zahl << "  "<< name << "  " << wert << std::endl;
-
-
-
-                            }else{
-
                             }
                         }
                     }
@@ -129,7 +141,7 @@ void XMLLoader::load(std::string file)
 
                 }
 
-
+                preline = line;
                 stack.push(line);
                 zahl ++;
                 break;
