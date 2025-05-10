@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-2decea2ddc1002c8bd79.json",
+					"jsonFile" : "directory-.-Debug-7b5e38e222aedd44ff30.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -40,7 +40,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "01Praktikum::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-01Praktikum-Debug-9bd3f7bbeb767e8c19f4.json",
+					"jsonFile" : "target-01Praktikum-Debug-1c3ebb04f6956239c63f.json",
 					"name" : "01Praktikum",
 					"projectIndex" : 0
 				}
@@ -50,7 +50,7 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/alexanderroman/Projekte/prog2/01Praktikum/cmake-build-debug",
+		"build" : "/Users/alexanderroman/Projekte/prog2/01Praktikum/build/c-Debug",
 		"source" : "/Users/alexanderroman/Projekte/prog2/01Praktikum"
 	},
 	"version" : 

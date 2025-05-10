@@ -4,7 +4,9 @@
 
 #include "xmlloader.h"
 //#include "stack"
+#include "InvalidOperationException.h"
 #include "stack.h"
+#include "InvalidOperationException.h"
 
 XMLLoader::XMLLoader() {}
 
@@ -34,14 +36,10 @@ void XMLLoader::load(std::string file)
             }*/
 
             tagName(line, type);
-           // std::cout<<line<<std::endl;       Ausgabe des Files
-
             switch (type) {
             case END_TAG:
                 if (stack.isEmpty()){
-
-                    std::cout << "Falsch in line : " << zahl << std::endl ;
-                    std::cout << line << std::endl;
+                    throw InvalidOperationException("Ein Push wurde versucht in line :" + std::to_string(zahl));
                 }
                 if (! stack.isEmpty()){
                     std::string comp1, comp2;
@@ -156,6 +154,7 @@ void XMLLoader::load(std::string file)
         }
         if (!stack.isEmpty()){
             std::cout << "Falsch in line: " << zahl - 1 << std::endl;
+
             return;
         }
         std::cout << "Richtig\n";

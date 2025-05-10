@@ -8,6 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Users/alexanderroman/Projekte/prog2/01Praktikum/CSVLoader.cpp" "CMakeFiles/01Praktikum.dir/CSVLoader.cpp.o" "gcc" "CMakeFiles/01Praktikum.dir/CSVLoader.cpp.o.d"
+  "/Users/alexanderroman/Projekte/prog2/01Praktikum/InvalidOperationException.cpp" "CMakeFiles/01Praktikum.dir/InvalidOperationException.cpp.o" "gcc" "CMakeFiles/01Praktikum.dir/InvalidOperationException.cpp.o.d"
+  "/Users/alexanderroman/Projekte/prog2/01Praktikum/JSONLoader.cpp" "CMakeFiles/01Praktikum.dir/JSONLoader.cpp.o" "gcc" "CMakeFiles/01Praktikum.dir/JSONLoader.cpp.o.d"
+  "/Users/alexanderroman/Projekte/prog2/01Praktikum/Loader.cpp" "CMakeFiles/01Praktikum.dir/Loader.cpp.o" "gcc" "CMakeFiles/01Praktikum.dir/Loader.cpp.o.d"
+  "/Users/alexanderroman/Projekte/prog2/01Praktikum/Node.cpp" "CMakeFiles/01Praktikum.dir/Node.cpp.o" "gcc" "CMakeFiles/01Praktikum.dir/Node.cpp.o.d"
   "/Users/alexanderroman/Projekte/prog2/01Praktikum/main.cpp" "CMakeFiles/01Praktikum.dir/main.cpp.o" "gcc" "CMakeFiles/01Praktikum.dir/main.cpp.o.d"
   "/Users/alexanderroman/Projekte/prog2/01Praktikum/stack.cpp" "CMakeFiles/01Praktikum.dir/stack.cpp.o" "gcc" "CMakeFiles/01Praktikum.dir/stack.cpp.o.d"
   "/Users/alexanderroman/Projekte/prog2/01Praktikum/xmlloader.cpp" "CMakeFiles/01Praktikum.dir/xmlloader.cpp.o" "gcc" "CMakeFiles/01Praktikum.dir/xmlloader.cpp.o.d"

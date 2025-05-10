@@ -2,7 +2,7 @@
 #include <iostream>
 #include <string.h>
 #include "xmlloader.h"
-//#include "stack"
+#include "InvalidOperationException.h"
 
 
 int main() {
@@ -42,6 +42,8 @@ int main() {
                     loader.load("../XML_test_files/" + filename + ".xml");
                 } catch (std::runtime_error er) {
                     std::cerr << er.what();
+                } catch (InvalidOperationException e) {
+                    std::cerr << e.what();
                 }
                 break;
             }

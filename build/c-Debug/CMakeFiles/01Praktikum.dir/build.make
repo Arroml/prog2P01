@@ -111,11 +111,86 @@ CMakeFiles/01Praktikum.dir/stack.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/01Praktikum.dir/stack.cpp.s"
 	/usr/bin/llvm-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alexanderroman/Projekte/prog2/01Praktikum/stack.cpp -o CMakeFiles/01Praktikum.dir/stack.cpp.s
 
+CMakeFiles/01Praktikum.dir/InvalidOperationException.cpp.o: CMakeFiles/01Praktikum.dir/flags.make
+CMakeFiles/01Praktikum.dir/InvalidOperationException.cpp.o: /Users/alexanderroman/Projekte/prog2/01Praktikum/InvalidOperationException.cpp
+CMakeFiles/01Praktikum.dir/InvalidOperationException.cpp.o: CMakeFiles/01Praktikum.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alexanderroman/Projekte/prog2/01Praktikum/build/c-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/01Praktikum.dir/InvalidOperationException.cpp.o"
+	/usr/bin/llvm-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/01Praktikum.dir/InvalidOperationException.cpp.o -MF CMakeFiles/01Praktikum.dir/InvalidOperationException.cpp.o.d -o CMakeFiles/01Praktikum.dir/InvalidOperationException.cpp.o -c /Users/alexanderroman/Projekte/prog2/01Praktikum/InvalidOperationException.cpp
+
+CMakeFiles/01Praktikum.dir/InvalidOperationException.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/01Praktikum.dir/InvalidOperationException.cpp.i"
+	/usr/bin/llvm-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alexanderroman/Projekte/prog2/01Praktikum/InvalidOperationException.cpp > CMakeFiles/01Praktikum.dir/InvalidOperationException.cpp.i
+
+CMakeFiles/01Praktikum.dir/InvalidOperationException.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/01Praktikum.dir/InvalidOperationException.cpp.s"
+	/usr/bin/llvm-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alexanderroman/Projekte/prog2/01Praktikum/InvalidOperationException.cpp -o CMakeFiles/01Praktikum.dir/InvalidOperationException.cpp.s
+
+CMakeFiles/01Praktikum.dir/Loader.cpp.o: CMakeFiles/01Praktikum.dir/flags.make
+CMakeFiles/01Praktikum.dir/Loader.cpp.o: /Users/alexanderroman/Projekte/prog2/01Praktikum/Loader.cpp
+CMakeFiles/01Praktikum.dir/Loader.cpp.o: CMakeFiles/01Praktikum.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alexanderroman/Projekte/prog2/01Praktikum/build/c-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/01Praktikum.dir/Loader.cpp.o"
+	/usr/bin/llvm-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/01Praktikum.dir/Loader.cpp.o -MF CMakeFiles/01Praktikum.dir/Loader.cpp.o.d -o CMakeFiles/01Praktikum.dir/Loader.cpp.o -c /Users/alexanderroman/Projekte/prog2/01Praktikum/Loader.cpp
+
+CMakeFiles/01Praktikum.dir/Loader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/01Praktikum.dir/Loader.cpp.i"
+	/usr/bin/llvm-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alexanderroman/Projekte/prog2/01Praktikum/Loader.cpp > CMakeFiles/01Praktikum.dir/Loader.cpp.i
+
+CMakeFiles/01Praktikum.dir/Loader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/01Praktikum.dir/Loader.cpp.s"
+	/usr/bin/llvm-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alexanderroman/Projekte/prog2/01Praktikum/Loader.cpp -o CMakeFiles/01Praktikum.dir/Loader.cpp.s
+
+CMakeFiles/01Praktikum.dir/CSVLoader.cpp.o: CMakeFiles/01Praktikum.dir/flags.make
+CMakeFiles/01Praktikum.dir/CSVLoader.cpp.o: /Users/alexanderroman/Projekte/prog2/01Praktikum/CSVLoader.cpp
+CMakeFiles/01Praktikum.dir/CSVLoader.cpp.o: CMakeFiles/01Praktikum.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alexanderroman/Projekte/prog2/01Praktikum/build/c-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/01Praktikum.dir/CSVLoader.cpp.o"
+	/usr/bin/llvm-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/01Praktikum.dir/CSVLoader.cpp.o -MF CMakeFiles/01Praktikum.dir/CSVLoader.cpp.o.d -o CMakeFiles/01Praktikum.dir/CSVLoader.cpp.o -c /Users/alexanderroman/Projekte/prog2/01Praktikum/CSVLoader.cpp
+
+CMakeFiles/01Praktikum.dir/CSVLoader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/01Praktikum.dir/CSVLoader.cpp.i"
+	/usr/bin/llvm-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alexanderroman/Projekte/prog2/01Praktikum/CSVLoader.cpp > CMakeFiles/01Praktikum.dir/CSVLoader.cpp.i
+
+CMakeFiles/01Praktikum.dir/CSVLoader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/01Praktikum.dir/CSVLoader.cpp.s"
+	/usr/bin/llvm-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alexanderroman/Projekte/prog2/01Praktikum/CSVLoader.cpp -o CMakeFiles/01Praktikum.dir/CSVLoader.cpp.s
+
+CMakeFiles/01Praktikum.dir/JSONLoader.cpp.o: CMakeFiles/01Praktikum.dir/flags.make
+CMakeFiles/01Praktikum.dir/JSONLoader.cpp.o: /Users/alexanderroman/Projekte/prog2/01Praktikum/JSONLoader.cpp
+CMakeFiles/01Praktikum.dir/JSONLoader.cpp.o: CMakeFiles/01Praktikum.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alexanderroman/Projekte/prog2/01Praktikum/build/c-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/01Praktikum.dir/JSONLoader.cpp.o"
+	/usr/bin/llvm-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/01Praktikum.dir/JSONLoader.cpp.o -MF CMakeFiles/01Praktikum.dir/JSONLoader.cpp.o.d -o CMakeFiles/01Praktikum.dir/JSONLoader.cpp.o -c /Users/alexanderroman/Projekte/prog2/01Praktikum/JSONLoader.cpp
+
+CMakeFiles/01Praktikum.dir/JSONLoader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/01Praktikum.dir/JSONLoader.cpp.i"
+	/usr/bin/llvm-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alexanderroman/Projekte/prog2/01Praktikum/JSONLoader.cpp > CMakeFiles/01Praktikum.dir/JSONLoader.cpp.i
+
+CMakeFiles/01Praktikum.dir/JSONLoader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/01Praktikum.dir/JSONLoader.cpp.s"
+	/usr/bin/llvm-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alexanderroman/Projekte/prog2/01Praktikum/JSONLoader.cpp -o CMakeFiles/01Praktikum.dir/JSONLoader.cpp.s
+
+CMakeFiles/01Praktikum.dir/Node.cpp.o: CMakeFiles/01Praktikum.dir/flags.make
+CMakeFiles/01Praktikum.dir/Node.cpp.o: /Users/alexanderroman/Projekte/prog2/01Praktikum/Node.cpp
+CMakeFiles/01Praktikum.dir/Node.cpp.o: CMakeFiles/01Praktikum.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alexanderroman/Projekte/prog2/01Praktikum/build/c-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/01Praktikum.dir/Node.cpp.o"
+	/usr/bin/llvm-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/01Praktikum.dir/Node.cpp.o -MF CMakeFiles/01Praktikum.dir/Node.cpp.o.d -o CMakeFiles/01Praktikum.dir/Node.cpp.o -c /Users/alexanderroman/Projekte/prog2/01Praktikum/Node.cpp
+
+CMakeFiles/01Praktikum.dir/Node.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/01Praktikum.dir/Node.cpp.i"
+	/usr/bin/llvm-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alexanderroman/Projekte/prog2/01Praktikum/Node.cpp > CMakeFiles/01Praktikum.dir/Node.cpp.i
+
+CMakeFiles/01Praktikum.dir/Node.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/01Praktikum.dir/Node.cpp.s"
+	/usr/bin/llvm-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alexanderroman/Projekte/prog2/01Praktikum/Node.cpp -o CMakeFiles/01Praktikum.dir/Node.cpp.s
+
 # Object files for target 01Praktikum
 01Praktikum_OBJECTS = \
 "CMakeFiles/01Praktikum.dir/main.cpp.o" \
 "CMakeFiles/01Praktikum.dir/xmlloader.cpp.o" \
-"CMakeFiles/01Praktikum.dir/stack.cpp.o"
+"CMakeFiles/01Praktikum.dir/stack.cpp.o" \
+"CMakeFiles/01Praktikum.dir/InvalidOperationException.cpp.o" \
+"CMakeFiles/01Praktikum.dir/Loader.cpp.o" \
+"CMakeFiles/01Praktikum.dir/CSVLoader.cpp.o" \
+"CMakeFiles/01Praktikum.dir/JSONLoader.cpp.o" \
+"CMakeFiles/01Praktikum.dir/Node.cpp.o"
 
 # External object files for target 01Praktikum
 01Praktikum_EXTERNAL_OBJECTS =
@@ -123,9 +198,14 @@ CMakeFiles/01Praktikum.dir/stack.cpp.s: cmake_force
 01Praktikum: CMakeFiles/01Praktikum.dir/main.cpp.o
 01Praktikum: CMakeFiles/01Praktikum.dir/xmlloader.cpp.o
 01Praktikum: CMakeFiles/01Praktikum.dir/stack.cpp.o
+01Praktikum: CMakeFiles/01Praktikum.dir/InvalidOperationException.cpp.o
+01Praktikum: CMakeFiles/01Praktikum.dir/Loader.cpp.o
+01Praktikum: CMakeFiles/01Praktikum.dir/CSVLoader.cpp.o
+01Praktikum: CMakeFiles/01Praktikum.dir/JSONLoader.cpp.o
+01Praktikum: CMakeFiles/01Praktikum.dir/Node.cpp.o
 01Praktikum: CMakeFiles/01Praktikum.dir/build.make
 01Praktikum: CMakeFiles/01Praktikum.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/alexanderroman/Projekte/prog2/01Praktikum/build/c-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable 01Praktikum"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/alexanderroman/Projekte/prog2/01Praktikum/build/c-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable 01Praktikum"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/01Praktikum.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

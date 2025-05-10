@@ -7,7 +7,17 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_executable(01Praktikum main.cpp
     xmlloader.h xmlloader.cpp
-    stack.h stack.cpp)
+    stack.h stack.cpp
+        InvalidOperationException.cpp
+        InvalidOperationException.h
+        Loader.cpp
+        Loader.h
+        CSVLoader.cpp
+        CSVLoader.h
+        JSONLoader.cpp
+        JSONLoader.h
+        Node.cpp
+        Node.h)
 
 include(GNUInstallDirs)
 install(TARGETS 01Praktikum
