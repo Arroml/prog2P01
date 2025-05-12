@@ -14,6 +14,8 @@ private:
     Node* root;
     public:
     Loader();
+
+
     virtual void load(std::string fileName) = 0;
     Node* getRoot();
     virtual ~Loader();
