@@ -7,9 +7,7 @@
 Node::Node(std::string name) : tagName(name) {}
 
 Node::~Node() {
-    for (auto child : children) {
-        delete child;
-    }
+    deleteCildren();
 }
 
 void Node::addChild(Node* child) {
@@ -26,10 +24,20 @@ void Node::printNode(int level) {
     for (int i = 0; i < level; i++) {
         std::cout << "  ";
     }
-    std::cout << tagName << std::endl;
+    std::cout << "<" << tagName << ">"<< std::endl;
 
     for (Node* child : children) {
         child->printNode(level + 1);
     }
+    for(int i = 0; i<level; i++){
+        std::cout<<"  ";
+    }
+    std::cout << "</" << tagName << ">" << std::endl;
+
 }
 
+void Node::deleteCildren(){
+    for (Node* chil : children){
+        delete chil;
+    }
+}

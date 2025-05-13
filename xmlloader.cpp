@@ -1,17 +1,30 @@
-//#include <fstream>
 #include <map>
-//#include <iostream>
-
 #include "xmlloader.h"
-//#include "stack"
 #include "InvalidOperationException.h"
 #include "stack.h"
 #include "InvalidOperationException.h"
 
 XMLLoader::XMLLoader() {}
 
+std::string XMLLoader::getTagName(std::string oldName){
+    int i = 0;
+    std::string newName;
+    while(oldName[i] != '<'){
+        i++;
+    }
+    i++;
+    while(oldName[i] != '>'){
+        newName+=oldName[i];
+        i++;
+    }
+    std::cout << newName;
+    return newName;
+}
+
 void XMLLoader::load(std::string file)
 {
+
+    std::vector<Node*> nodestack;
 
     std::map<std::string,std::string> attributes;
     Stack stack;
@@ -24,16 +37,6 @@ void XMLLoader::load(std::string file)
         int zahl = 1;
         while (std::getline(ifs, line))
         {
-            /*  [&] {
-                for (int i = 0; i < line.size(); i++) {
-                if (line[i]=='<' && line[i+1]=='?'){
-                    return;
-                }
-            }
-            }(); */
-        /*    if (line[0]=='<' && line[1]=='?'){
-                continue;
-            }*/
 
             tagName(line, type);
             switch (type) {
@@ -70,10 +73,15 @@ void XMLLoader::load(std::string file)
 
                         std::cout<<"Falsch in line : " << zahl-1 << std::endl;
                         std::cout << line << std::endl;
+
+                        this->root->printNode();
+                        delete root;
                         return;
                     }
 
+
                 }
+                nodestack.pop_back();
                 preline = line;
                 zahl ++;
                 break;
@@ -103,7 +111,11 @@ void XMLLoader::load(std::string file)
                     }
                 }
 
+                std::string tag;
                 preline = line;
+                Node *node = new Node(line); //
+                nodestack.back()->addChild(node); //
+
                 zahl ++;
                 break;
             }
@@ -113,6 +125,8 @@ void XMLLoader::load(std::string file)
                 break;
 
             case START_TAG:{
+
+
                 for (int i =0; i < line.size(); i++){
                     if (line [i] == '<'){
                         for (int j = i; j<line.size(); j++){
@@ -140,7 +154,16 @@ void XMLLoader::load(std::string file)
                 }
 
                 preline = line;
+
                 stack.push(line);
+                std::string newName = this->getTagName(line);
+                Node *newNode = new Node(newName);
+                if (nodestack.empty()){
+                    root = newNode;
+                }else{
+                    nodestack.back()->addChild(newNode);
+                }
+                nodestack.push_back(newNode);
                 zahl ++;
                 break;
             }
@@ -155,10 +178,17 @@ void XMLLoader::load(std::string file)
         if (!stack.isEmpty()){
             std::cout << "Falsch in line: " << zahl - 1 << std::endl;
 
+
+            this->root->printNode();
+
+            delete root;
             return;
+
         }
         std::cout << "Richtig\n";
 
+        this->root->printNode();
+        delete root;
         return;
     }
     throw std::runtime_error("Datei konnte nicht geöffnet werden \n");

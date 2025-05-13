@@ -16,6 +16,7 @@ class Node {
     void addChild(Node* child);
     Node* removeChild();
     void printNode(int level = 0);
+    void deleteCildren();
 };
 
 

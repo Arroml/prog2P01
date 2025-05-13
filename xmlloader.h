@@ -12,6 +12,7 @@ public:
     XMLLoader();
     void load(std::string file) override;
     void tagName(std::string line, TagType & type);
+    std::string getTagName(std::string oldName);
 };
 
 #endif // XMLLOADER_H
