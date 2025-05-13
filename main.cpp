@@ -51,7 +51,7 @@ int main() {
 
             case 3:{
                 XMLLoader loader;
-                std::string filename = "valid3";
+                std::string filename = "valid1";
                 try {
                     loader.load("../../XML_test_files/" + filename + ".xml");
                 } catch (std::runtime_error er) {
