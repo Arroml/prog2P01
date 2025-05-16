@@ -1,13 +1,9 @@
-//
-// Created by Alexander Roman on 5/8/25.
-//
-
 #include "Node.h"
 
 Node::Node(std::string name) : tagName(name) {}
 
 Node::~Node() {
-    deleteCildren();
+    deleteChildren();
 }
 
 void Node::addChild(Node* child) {
@@ -24,20 +20,20 @@ void Node::printNode(int level) {
     for (int i = 0; i < level; i++) {
         std::cout << "  ";
     }
-    std::cout << "<" << tagName << ">"<< std::endl;
+    std::cout << tagName << std::endl;
 
     for (Node* child : children) {
         child->printNode(level + 1);
     }
-    for(int i = 0; i<level; i++){
+   /* for(int i = 0; i<level; i++){
         std::cout<<"  ";
     }
-    std::cout << "</" << tagName << ">" << std::endl;
+    std::cout << "</" << tagName << ">" << std::endl; */
 
 }
 
-void Node::deleteCildren(){
-    for (Node* chil : children){
-        delete chil;
+void Node::deleteChildren(){
+    for (Node* child : children){
+        delete child;
     }
 }
