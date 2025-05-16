@@ -17,7 +17,7 @@ std::string XMLLoader::getTagName(std::string oldName){
         newName+=oldName[i];
         i++;
     }
-    std::cout << newName;
+   // std::cout << newName;
     return newName;
 }
 
@@ -72,9 +72,9 @@ void XMLLoader::load(std::string file)
                     if (comp1 != comp2){
 
                         std::cout<<"Falsch in line : " << zahl-1 << std::endl;
-                        std::cout << line << std::endl;
+                        std::cout << line << std::endl << std::endl;
 
-                        this->root->printNode();
+                     //   this->root->printNode();
                         delete root;
                         return;
                     }
@@ -111,10 +111,11 @@ void XMLLoader::load(std::string file)
                     }
                 }
 
-                std::string tag;
                 preline = line;
-                Node *node = new Node(line); //
-                nodestack.back()->addChild(node); //
+
+                std::string newName = this->getTagName(line);
+                Node *newNode = new Node(newName);
+                nodestack.back()->addChild(newNode);
 
                 zahl ++;
                 break;
@@ -191,7 +192,7 @@ void XMLLoader::load(std::string file)
         delete root;
         return;
     }
-    throw std::runtime_error("Datei konnte nicht geöffnet werden \n");
+    throw std::runtime_error("Datei konnte nicht geoeffnet werden \n");
 
 }
 
