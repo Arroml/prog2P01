@@ -2,6 +2,16 @@
 
 JsonWriter::JsonWriter() {}
 
-void JsonWriter::write(){
-    std::cout<<"CSV-, JSON- und XML-Dateien sind aktuell noch nicht implementiert."<<std::endl;
+bool JsonWriter::write(std::string filename){
+    std::cout<<"Start writing ..."<<std::endl;
+
+    std::ofstream file(filename+".json");
+
+    if (file.is_open()) {
+
+        file << "test123" << std::endl;
+
+    }
+
+        return true;
 }

@@ -59,11 +59,11 @@ int main(int argv, char * argc[]) {
                     if (loader == nullptr){
                         std::runtime_error er("loader Fehlgeschlagen");
                     }
-                    loader->load(file);
+                    loader->load("../../XML_test_files/"+file);
 
                 }
             } catch (...) {
-
+                std::cerr<<"ERROR\n";
             }
 
             break;

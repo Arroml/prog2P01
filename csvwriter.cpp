@@ -3,6 +3,7 @@
 
 CSVWriter::CSVWriter() {}
 
-void CSVWriter::write(){
+bool CSVWriter::write(std::string file){
     std::cout<<"CSV-, JSON- und XML-Dateien sind aktuell noch nicht implementiert."<<std::endl;
+    return false;
 }

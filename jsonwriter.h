@@ -7,7 +7,7 @@ class JsonWriter : public Writer
 {
 public:
     JsonWriter();
-    void write()override;
+    bool write(std::string file)override;
 };
 
 #endif // JSONWRITER_H

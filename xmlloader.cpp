@@ -35,6 +35,7 @@ void XMLLoader::load(std::string file)
     if (ifs.is_open())
     {
         int zahl = 1;
+        std::cout<<"Loading XML"<<std::endl;
         while (std::getline(ifs, line))
         {
 

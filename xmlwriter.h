@@ -7,7 +7,7 @@ class XMLWriter : public Writer
 {
 public:
     XMLWriter();
-    void write()override;
+    bool write(std::string file)override;
 };
 
 #endif // XMLWRITER_H
