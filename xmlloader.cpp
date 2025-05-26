@@ -43,7 +43,8 @@ void XMLLoader::load(std::string file)
             switch (type) {
             case END_TAG:
                 if (stack.isEmpty()){
-                    throw InvalidOperationException("Ein Push wurde versucht in line :" + std::to_string(zahl));
+                    std::cout << "ein Push wurder versucht" << std::endl;
+                    return;
                 }
                 if (! stack.isEmpty()){
                     std::string comp1, comp2;

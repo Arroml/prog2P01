@@ -41,13 +41,13 @@ int main(int argv, char * argc[]) {
             std::map <std::string, Loader*> registeredLoaders{
                 {"csv", new CSVLoader},
                 {"json", new JSONLoader},
-                {"xml", new XMLLoader}
+                {"xml", new XMLLoader},
 
             };
             std::vector<std::string> files{
                 "basic.json", "broken1.xml", "broken2.xml", "broken3.xml", "broken4.xml",
                 "broken5.xml", "broken6.xml", "broken7.xml", "broken8.xml", "broken9.xml",
-                "valid1.xml", "valid2.xml", "valid3.xml", "stud.csv", "image.svg"
+                "valid1.xml", "valid2.xml", "valid3.xml", "stud.csv"
             };
 
             try {
@@ -59,11 +59,14 @@ int main(int argv, char * argc[]) {
                     if (loader == nullptr){
                         std::runtime_error er("loader Fehlgeschlagen");
                     }
-                    loader->load("../../XML_test_files/"+file);
+                    std::cout << std::endl << std::endl << "eoffne neue File: "<< file << std::endl;
+                    loader->load("../XML_test_files/"+file);
 
                 }
-            } catch (...) {
-                std::cerr<<"ERROR\n";
+            } catch (std::runtime_error er) {
+                std::cerr << er.what();
+            }catch (InvalidOperationException e){
+                std::cerr << e.what();
             }
 
             break;
@@ -86,7 +89,7 @@ int main(int argv, char * argc[]) {
 
         case 3:{
             XMLLoader loader;
-            std::string filename = "valid2";
+            std::string filename = "broken7";
             try {
                 loader.load("../../XML_test_files/" + filename + ".xml");
             } catch (std::runtime_error er) {

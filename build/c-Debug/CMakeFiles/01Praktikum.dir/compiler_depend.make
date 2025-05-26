@@ -4412,6 +4412,7 @@ CMakeFiles/01Praktikum.dir/csvwriter.cpp.o: /Users/alexanderroman/Projekte/prog2
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__charconv/traits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__chrono/convert_to_timespec.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__chrono/duration.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__chrono/file_clock.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__chrono/high_resolution_clock.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__chrono/statically_widen.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__chrono/steady_clock.h \
@@ -4462,6 +4463,22 @@ CMakeFiles/01Praktikum.dir/csvwriter.cpp.o: /Users/alexanderroman/Projekte/prog2
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__exception/nested_exception.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__exception/operations.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__exception/terminate.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/directory_entry.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/directory_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/directory_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/file_status.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/file_time_type.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/file_type.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/filesystem_error.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/operations.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/path.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/perm_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/perms.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/space_info.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/u8path.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__format/buffer.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__format/concepts.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__format/container_adaptor.h \
@@ -4672,6 +4689,7 @@ CMakeFiles/01Praktikum.dir/csvwriter.cpp.o: /Users/alexanderroman/Projekte/prog2
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__thread/id.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__thread/poll_with_backoff.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__threading_support \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__tree \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__tuple/make_tuple_types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__tuple/pair_like.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__tuple/sfinae_helpers.h \
@@ -4870,9 +4888,12 @@ CMakeFiles/01Praktikum.dir/csvwriter.cpp.o: /Users/alexanderroman/Projekte/prog2
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/exception \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/execution \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/filesystem \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/format \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/fstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/initializer_list \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/iomanip \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/ios \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/iosfwd \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/iostream \
@@ -4881,6 +4902,7 @@ CMakeFiles/01Praktikum.dir/csvwriter.cpp.o: /Users/alexanderroman/Projekte/prog2
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/limits \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/locale \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/locale.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/map \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/math.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/memory \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/mutex \
@@ -5059,6 +5081,8 @@ CMakeFiles/01Praktikum.dir/csvwriter.cpp.o: /Users/alexanderroman/Projekte/prog2
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stdarg.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stdint.h \
+  /Users/alexanderroman/Projekte/prog2/01Praktikum/Loader.h \
+  /Users/alexanderroman/Projekte/prog2/01Praktikum/Node.h \
   /Users/alexanderroman/Projekte/prog2/01Praktikum/csvwriter.h \
   /Users/alexanderroman/Projekte/prog2/01Praktikum/writer.h
 
@@ -5372,6 +5396,7 @@ CMakeFiles/01Praktikum.dir/jsonwriter.cpp.o: /Users/alexanderroman/Projekte/prog
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__charconv/traits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__chrono/convert_to_timespec.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__chrono/duration.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__chrono/file_clock.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__chrono/high_resolution_clock.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__chrono/statically_widen.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__chrono/steady_clock.h \
@@ -5422,6 +5447,22 @@ CMakeFiles/01Praktikum.dir/jsonwriter.cpp.o: /Users/alexanderroman/Projekte/prog
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__exception/nested_exception.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__exception/operations.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__exception/terminate.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/directory_entry.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/directory_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/directory_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/file_status.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/file_time_type.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/file_type.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/filesystem_error.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/operations.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/path.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/perm_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/perms.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/space_info.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/u8path.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__format/buffer.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__format/concepts.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__format/container_adaptor.h \
@@ -5632,6 +5673,7 @@ CMakeFiles/01Praktikum.dir/jsonwriter.cpp.o: /Users/alexanderroman/Projekte/prog
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__thread/id.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__thread/poll_with_backoff.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__threading_support \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__tree \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__tuple/make_tuple_types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__tuple/pair_like.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__tuple/sfinae_helpers.h \
@@ -5830,9 +5872,12 @@ CMakeFiles/01Praktikum.dir/jsonwriter.cpp.o: /Users/alexanderroman/Projekte/prog
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/exception \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/execution \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/filesystem \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/format \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/fstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/initializer_list \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/iomanip \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/ios \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/iosfwd \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/iostream \
@@ -5841,6 +5886,7 @@ CMakeFiles/01Praktikum.dir/jsonwriter.cpp.o: /Users/alexanderroman/Projekte/prog
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/limits \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/locale \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/locale.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/map \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/math.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/memory \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/mutex \
@@ -6019,6 +6065,8 @@ CMakeFiles/01Praktikum.dir/jsonwriter.cpp.o: /Users/alexanderroman/Projekte/prog
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stdarg.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stdint.h \
+  /Users/alexanderroman/Projekte/prog2/01Praktikum/Loader.h \
+  /Users/alexanderroman/Projekte/prog2/01Praktikum/Node.h \
   /Users/alexanderroman/Projekte/prog2/01Praktikum/jsonwriter.h \
   /Users/alexanderroman/Projekte/prog2/01Praktikum/writer.h
 
@@ -8277,6 +8325,7 @@ CMakeFiles/01Praktikum.dir/writer.cpp.o: /Users/alexanderroman/Projekte/prog2/01
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__charconv/traits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__chrono/convert_to_timespec.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__chrono/duration.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__chrono/file_clock.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__chrono/high_resolution_clock.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__chrono/statically_widen.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__chrono/steady_clock.h \
@@ -8327,6 +8376,22 @@ CMakeFiles/01Praktikum.dir/writer.cpp.o: /Users/alexanderroman/Projekte/prog2/01
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__exception/nested_exception.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__exception/operations.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__exception/terminate.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/directory_entry.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/directory_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/directory_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/file_status.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/file_time_type.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/file_type.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/filesystem_error.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/operations.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/path.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/perm_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/perms.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/space_info.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/u8path.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__format/buffer.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__format/concepts.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__format/container_adaptor.h \
@@ -8537,6 +8602,7 @@ CMakeFiles/01Praktikum.dir/writer.cpp.o: /Users/alexanderroman/Projekte/prog2/01
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__thread/id.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__thread/poll_with_backoff.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__threading_support \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__tree \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__tuple/make_tuple_types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__tuple/pair_like.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__tuple/sfinae_helpers.h \
@@ -8735,9 +8801,12 @@ CMakeFiles/01Praktikum.dir/writer.cpp.o: /Users/alexanderroman/Projekte/prog2/01
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/exception \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/execution \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/filesystem \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/format \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/fstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/initializer_list \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/iomanip \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/ios \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/iosfwd \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/iostream \
@@ -8746,6 +8815,7 @@ CMakeFiles/01Praktikum.dir/writer.cpp.o: /Users/alexanderroman/Projekte/prog2/01
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/limits \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/locale \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/locale.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/map \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/math.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/memory \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/mutex \
@@ -8924,6 +8994,8 @@ CMakeFiles/01Praktikum.dir/writer.cpp.o: /Users/alexanderroman/Projekte/prog2/01
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stdarg.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stdint.h \
+  /Users/alexanderroman/Projekte/prog2/01Praktikum/Loader.h \
+  /Users/alexanderroman/Projekte/prog2/01Praktikum/Node.h \
   /Users/alexanderroman/Projekte/prog2/01Praktikum/writer.h
 
 CMakeFiles/01Praktikum.dir/xmlloader.cpp.o: /Users/alexanderroman/Projekte/prog2/01Praktikum/xmlloader.cpp \
@@ -10221,6 +10293,7 @@ CMakeFiles/01Praktikum.dir/xmlwriter.cpp.o: /Users/alexanderroman/Projekte/prog2
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__charconv/traits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__chrono/convert_to_timespec.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__chrono/duration.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__chrono/file_clock.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__chrono/high_resolution_clock.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__chrono/statically_widen.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__chrono/steady_clock.h \
@@ -10271,6 +10344,22 @@ CMakeFiles/01Praktikum.dir/xmlwriter.cpp.o: /Users/alexanderroman/Projekte/prog2
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__exception/nested_exception.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__exception/operations.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__exception/terminate.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/directory_entry.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/directory_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/directory_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/file_status.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/file_time_type.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/file_type.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/filesystem_error.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/operations.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/path.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/perm_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/perms.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/space_info.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/u8path.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__format/buffer.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__format/concepts.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__format/container_adaptor.h \
@@ -10481,6 +10570,7 @@ CMakeFiles/01Praktikum.dir/xmlwriter.cpp.o: /Users/alexanderroman/Projekte/prog2
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__thread/id.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__thread/poll_with_backoff.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__threading_support \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__tree \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__tuple/make_tuple_types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__tuple/pair_like.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__tuple/sfinae_helpers.h \
@@ -10679,9 +10769,12 @@ CMakeFiles/01Praktikum.dir/xmlwriter.cpp.o: /Users/alexanderroman/Projekte/prog2
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/exception \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/execution \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/filesystem \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/format \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/fstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/initializer_list \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/iomanip \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/ios \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/iosfwd \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/iostream \
@@ -10690,6 +10783,7 @@ CMakeFiles/01Praktikum.dir/xmlwriter.cpp.o: /Users/alexanderroman/Projekte/prog2
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/limits \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/locale \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/locale.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/map \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/math.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/memory \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/mutex \
@@ -10868,6 +10962,8 @@ CMakeFiles/01Praktikum.dir/xmlwriter.cpp.o: /Users/alexanderroman/Projekte/prog2
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stdarg.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stdint.h \
+  /Users/alexanderroman/Projekte/prog2/01Praktikum/Loader.h \
+  /Users/alexanderroman/Projekte/prog2/01Praktikum/Node.h \
   /Users/alexanderroman/Projekte/prog2/01Praktikum/writer.h \
   /Users/alexanderroman/Projekte/prog2/01Praktikum/xmlwriter.h
 
@@ -10881,6 +10977,10 @@ CMakeFiles/01Praktikum.dir/xmlwriter.cpp.o: /Users/alexanderroman/Projekte/prog2
 /Users/alexanderroman/Projekte/prog2/01Praktikum/stack.cpp:
 
 /Users/alexanderroman/Projekte/prog2/01Praktikum/xmlloader.h:
+
+/Users/alexanderroman/Projekte/prog2/01Praktikum/jsonwriter.cpp:
+
+/Users/alexanderroman/Projekte/prog2/01Praktikum/csvwriter.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/iomanip:
 
@@ -10899,10 +10999,6 @@ CMakeFiles/01Praktikum.dir/xmlwriter.cpp.o: /Users/alexanderroman/Projekte/prog2
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/operations.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/file_status.h:
-
-/Users/alexanderroman/Projekte/prog2/01Praktikum/jsonwriter.cpp:
-
-/Users/alexanderroman/Projekte/prog2/01Praktikum/csvwriter.h:
 
 /Users/alexanderroman/Projekte/prog2/01Praktikum/csvwriter.cpp:
 

@@ -97,6 +97,30 @@ build CMakeFiles/01Praktikum.dir/Node.cpp.o: CXX_COMPILER__01Praktikum_unscanned
   OBJECT_DIR = CMakeFiles/01Praktikum.dir
   OBJECT_FILE_DIR = CMakeFiles/01Praktikum.dir
 
+build CMakeFiles/01Praktikum.dir/writer.cpp.o: CXX_COMPILER__01Praktikum_unscanned_Debug /Users/alexanderroman/Projekte/prog2/01Praktikum/writer.cpp || cmake_object_order_depends_target_01Praktikum
+  DEP_FILE = CMakeFiles/01Praktikum.dir/writer.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/01Praktikum.dir
+  OBJECT_FILE_DIR = CMakeFiles/01Praktikum.dir
+
+build CMakeFiles/01Praktikum.dir/csvwriter.cpp.o: CXX_COMPILER__01Praktikum_unscanned_Debug /Users/alexanderroman/Projekte/prog2/01Praktikum/csvwriter.cpp || cmake_object_order_depends_target_01Praktikum
+  DEP_FILE = CMakeFiles/01Praktikum.dir/csvwriter.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/01Praktikum.dir
+  OBJECT_FILE_DIR = CMakeFiles/01Praktikum.dir
+
+build CMakeFiles/01Praktikum.dir/jsonwriter.cpp.o: CXX_COMPILER__01Praktikum_unscanned_Debug /Users/alexanderroman/Projekte/prog2/01Praktikum/jsonwriter.cpp || cmake_object_order_depends_target_01Praktikum
+  DEP_FILE = CMakeFiles/01Praktikum.dir/jsonwriter.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/01Praktikum.dir
+  OBJECT_FILE_DIR = CMakeFiles/01Praktikum.dir
+
+build CMakeFiles/01Praktikum.dir/xmlwriter.cpp.o: CXX_COMPILER__01Praktikum_unscanned_Debug /Users/alexanderroman/Projekte/prog2/01Praktikum/xmlwriter.cpp || cmake_object_order_depends_target_01Praktikum
+  DEP_FILE = CMakeFiles/01Praktikum.dir/xmlwriter.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/01Praktikum.dir
+  OBJECT_FILE_DIR = CMakeFiles/01Praktikum.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 01Praktikum
@@ -105,7 +129,7 @@ build CMakeFiles/01Praktikum.dir/Node.cpp.o: CXX_COMPILER__01Praktikum_unscanned
 #############################################
 # Link the executable 01Praktikum
 
-build 01Praktikum: CXX_EXECUTABLE_LINKER__01Praktikum_Debug CMakeFiles/01Praktikum.dir/main.cpp.o CMakeFiles/01Praktikum.dir/xmlloader.cpp.o CMakeFiles/01Praktikum.dir/stack.cpp.o CMakeFiles/01Praktikum.dir/InvalidOperationException.cpp.o CMakeFiles/01Praktikum.dir/Loader.cpp.o CMakeFiles/01Praktikum.dir/CSVLoader.cpp.o CMakeFiles/01Praktikum.dir/JSONLoader.cpp.o CMakeFiles/01Praktikum.dir/Node.cpp.o
+build 01Praktikum: CXX_EXECUTABLE_LINKER__01Praktikum_Debug CMakeFiles/01Praktikum.dir/main.cpp.o CMakeFiles/01Praktikum.dir/xmlloader.cpp.o CMakeFiles/01Praktikum.dir/stack.cpp.o CMakeFiles/01Praktikum.dir/InvalidOperationException.cpp.o CMakeFiles/01Praktikum.dir/Loader.cpp.o CMakeFiles/01Praktikum.dir/CSVLoader.cpp.o CMakeFiles/01Praktikum.dir/JSONLoader.cpp.o CMakeFiles/01Praktikum.dir/Node.cpp.o CMakeFiles/01Praktikum.dir/writer.cpp.o CMakeFiles/01Praktikum.dir/csvwriter.cpp.o CMakeFiles/01Praktikum.dir/jsonwriter.cpp.o CMakeFiles/01Praktikum.dir/xmlwriter.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk
   OBJECT_DIR = CMakeFiles/01Praktikum.dir
   POST_BUILD = :
