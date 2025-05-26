@@ -11,12 +11,20 @@ file(REMOVE_RECURSE
   "CMakeFiles/01Praktikum.dir/Loader.cpp.o.d"
   "CMakeFiles/01Praktikum.dir/Node.cpp.o"
   "CMakeFiles/01Praktikum.dir/Node.cpp.o.d"
+  "CMakeFiles/01Praktikum.dir/csvwriter.cpp.o"
+  "CMakeFiles/01Praktikum.dir/csvwriter.cpp.o.d"
+  "CMakeFiles/01Praktikum.dir/jsonwriter.cpp.o"
+  "CMakeFiles/01Praktikum.dir/jsonwriter.cpp.o.d"
   "CMakeFiles/01Praktikum.dir/main.cpp.o"
   "CMakeFiles/01Praktikum.dir/main.cpp.o.d"
   "CMakeFiles/01Praktikum.dir/stack.cpp.o"
   "CMakeFiles/01Praktikum.dir/stack.cpp.o.d"
+  "CMakeFiles/01Praktikum.dir/writer.cpp.o"
+  "CMakeFiles/01Praktikum.dir/writer.cpp.o.d"
   "CMakeFiles/01Praktikum.dir/xmlloader.cpp.o"
   "CMakeFiles/01Praktikum.dir/xmlloader.cpp.o.d"
+  "CMakeFiles/01Praktikum.dir/xmlwriter.cpp.o"
+  "CMakeFiles/01Praktikum.dir/xmlwriter.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

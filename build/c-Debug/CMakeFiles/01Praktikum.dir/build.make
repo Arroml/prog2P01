@@ -181,6 +181,62 @@ CMakeFiles/01Praktikum.dir/Node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/01Praktikum.dir/Node.cpp.s"
 	/usr/bin/llvm-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alexanderroman/Projekte/prog2/01Praktikum/Node.cpp -o CMakeFiles/01Praktikum.dir/Node.cpp.s
 
+CMakeFiles/01Praktikum.dir/writer.cpp.o: CMakeFiles/01Praktikum.dir/flags.make
+CMakeFiles/01Praktikum.dir/writer.cpp.o: /Users/alexanderroman/Projekte/prog2/01Praktikum/writer.cpp
+CMakeFiles/01Praktikum.dir/writer.cpp.o: CMakeFiles/01Praktikum.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alexanderroman/Projekte/prog2/01Praktikum/build/c-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/01Praktikum.dir/writer.cpp.o"
+	/usr/bin/llvm-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/01Praktikum.dir/writer.cpp.o -MF CMakeFiles/01Praktikum.dir/writer.cpp.o.d -o CMakeFiles/01Praktikum.dir/writer.cpp.o -c /Users/alexanderroman/Projekte/prog2/01Praktikum/writer.cpp
+
+CMakeFiles/01Praktikum.dir/writer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/01Praktikum.dir/writer.cpp.i"
+	/usr/bin/llvm-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alexanderroman/Projekte/prog2/01Praktikum/writer.cpp > CMakeFiles/01Praktikum.dir/writer.cpp.i
+
+CMakeFiles/01Praktikum.dir/writer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/01Praktikum.dir/writer.cpp.s"
+	/usr/bin/llvm-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alexanderroman/Projekte/prog2/01Praktikum/writer.cpp -o CMakeFiles/01Praktikum.dir/writer.cpp.s
+
+CMakeFiles/01Praktikum.dir/csvwriter.cpp.o: CMakeFiles/01Praktikum.dir/flags.make
+CMakeFiles/01Praktikum.dir/csvwriter.cpp.o: /Users/alexanderroman/Projekte/prog2/01Praktikum/csvwriter.cpp
+CMakeFiles/01Praktikum.dir/csvwriter.cpp.o: CMakeFiles/01Praktikum.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alexanderroman/Projekte/prog2/01Praktikum/build/c-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/01Praktikum.dir/csvwriter.cpp.o"
+	/usr/bin/llvm-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/01Praktikum.dir/csvwriter.cpp.o -MF CMakeFiles/01Praktikum.dir/csvwriter.cpp.o.d -o CMakeFiles/01Praktikum.dir/csvwriter.cpp.o -c /Users/alexanderroman/Projekte/prog2/01Praktikum/csvwriter.cpp
+
+CMakeFiles/01Praktikum.dir/csvwriter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/01Praktikum.dir/csvwriter.cpp.i"
+	/usr/bin/llvm-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alexanderroman/Projekte/prog2/01Praktikum/csvwriter.cpp > CMakeFiles/01Praktikum.dir/csvwriter.cpp.i
+
+CMakeFiles/01Praktikum.dir/csvwriter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/01Praktikum.dir/csvwriter.cpp.s"
+	/usr/bin/llvm-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alexanderroman/Projekte/prog2/01Praktikum/csvwriter.cpp -o CMakeFiles/01Praktikum.dir/csvwriter.cpp.s
+
+CMakeFiles/01Praktikum.dir/jsonwriter.cpp.o: CMakeFiles/01Praktikum.dir/flags.make
+CMakeFiles/01Praktikum.dir/jsonwriter.cpp.o: /Users/alexanderroman/Projekte/prog2/01Praktikum/jsonwriter.cpp
+CMakeFiles/01Praktikum.dir/jsonwriter.cpp.o: CMakeFiles/01Praktikum.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alexanderroman/Projekte/prog2/01Praktikum/build/c-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/01Praktikum.dir/jsonwriter.cpp.o"
+	/usr/bin/llvm-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/01Praktikum.dir/jsonwriter.cpp.o -MF CMakeFiles/01Praktikum.dir/jsonwriter.cpp.o.d -o CMakeFiles/01Praktikum.dir/jsonwriter.cpp.o -c /Users/alexanderroman/Projekte/prog2/01Praktikum/jsonwriter.cpp
+
+CMakeFiles/01Praktikum.dir/jsonwriter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/01Praktikum.dir/jsonwriter.cpp.i"
+	/usr/bin/llvm-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alexanderroman/Projekte/prog2/01Praktikum/jsonwriter.cpp > CMakeFiles/01Praktikum.dir/jsonwriter.cpp.i
+
+CMakeFiles/01Praktikum.dir/jsonwriter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/01Praktikum.dir/jsonwriter.cpp.s"
+	/usr/bin/llvm-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alexanderroman/Projekte/prog2/01Praktikum/jsonwriter.cpp -o CMakeFiles/01Praktikum.dir/jsonwriter.cpp.s
+
+CMakeFiles/01Praktikum.dir/xmlwriter.cpp.o: CMakeFiles/01Praktikum.dir/flags.make
+CMakeFiles/01Praktikum.dir/xmlwriter.cpp.o: /Users/alexanderroman/Projekte/prog2/01Praktikum/xmlwriter.cpp
+CMakeFiles/01Praktikum.dir/xmlwriter.cpp.o: CMakeFiles/01Praktikum.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alexanderroman/Projekte/prog2/01Praktikum/build/c-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/01Praktikum.dir/xmlwriter.cpp.o"
+	/usr/bin/llvm-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/01Praktikum.dir/xmlwriter.cpp.o -MF CMakeFiles/01Praktikum.dir/xmlwriter.cpp.o.d -o CMakeFiles/01Praktikum.dir/xmlwriter.cpp.o -c /Users/alexanderroman/Projekte/prog2/01Praktikum/xmlwriter.cpp
+
+CMakeFiles/01Praktikum.dir/xmlwriter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/01Praktikum.dir/xmlwriter.cpp.i"
+	/usr/bin/llvm-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alexanderroman/Projekte/prog2/01Praktikum/xmlwriter.cpp > CMakeFiles/01Praktikum.dir/xmlwriter.cpp.i
+
+CMakeFiles/01Praktikum.dir/xmlwriter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/01Praktikum.dir/xmlwriter.cpp.s"
+	/usr/bin/llvm-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alexanderroman/Projekte/prog2/01Praktikum/xmlwriter.cpp -o CMakeFiles/01Praktikum.dir/xmlwriter.cpp.s
+
 # Object files for target 01Praktikum
 01Praktikum_OBJECTS = \
 "CMakeFiles/01Praktikum.dir/main.cpp.o" \
@@ -190,7 +246,11 @@ CMakeFiles/01Praktikum.dir/Node.cpp.s: cmake_force
 "CMakeFiles/01Praktikum.dir/Loader.cpp.o" \
 "CMakeFiles/01Praktikum.dir/CSVLoader.cpp.o" \
 "CMakeFiles/01Praktikum.dir/JSONLoader.cpp.o" \
-"CMakeFiles/01Praktikum.dir/Node.cpp.o"
+"CMakeFiles/01Praktikum.dir/Node.cpp.o" \
+"CMakeFiles/01Praktikum.dir/writer.cpp.o" \
+"CMakeFiles/01Praktikum.dir/csvwriter.cpp.o" \
+"CMakeFiles/01Praktikum.dir/jsonwriter.cpp.o" \
+"CMakeFiles/01Praktikum.dir/xmlwriter.cpp.o"
 
 # External object files for target 01Praktikum
 01Praktikum_EXTERNAL_OBJECTS =
@@ -203,9 +263,13 @@ CMakeFiles/01Praktikum.dir/Node.cpp.s: cmake_force
 01Praktikum: CMakeFiles/01Praktikum.dir/CSVLoader.cpp.o
 01Praktikum: CMakeFiles/01Praktikum.dir/JSONLoader.cpp.o
 01Praktikum: CMakeFiles/01Praktikum.dir/Node.cpp.o
+01Praktikum: CMakeFiles/01Praktikum.dir/writer.cpp.o
+01Praktikum: CMakeFiles/01Praktikum.dir/csvwriter.cpp.o
+01Praktikum: CMakeFiles/01Praktikum.dir/jsonwriter.cpp.o
+01Praktikum: CMakeFiles/01Praktikum.dir/xmlwriter.cpp.o
 01Praktikum: CMakeFiles/01Praktikum.dir/build.make
 01Praktikum: CMakeFiles/01Praktikum.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/alexanderroman/Projekte/prog2/01Praktikum/build/c-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable 01Praktikum"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/alexanderroman/Projekte/prog2/01Praktikum/build/c-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable 01Praktikum"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/01Praktikum.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

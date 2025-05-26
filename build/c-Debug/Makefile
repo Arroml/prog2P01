@@ -294,6 +294,54 @@ Node.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/01Praktikum.dir/build.make CMakeFiles/01Praktikum.dir/Node.cpp.s
 .PHONY : Node.cpp.s
 
+csvwriter.o: csvwriter.cpp.o
+.PHONY : csvwriter.o
+
+# target to build an object file
+csvwriter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01Praktikum.dir/build.make CMakeFiles/01Praktikum.dir/csvwriter.cpp.o
+.PHONY : csvwriter.cpp.o
+
+csvwriter.i: csvwriter.cpp.i
+.PHONY : csvwriter.i
+
+# target to preprocess a source file
+csvwriter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01Praktikum.dir/build.make CMakeFiles/01Praktikum.dir/csvwriter.cpp.i
+.PHONY : csvwriter.cpp.i
+
+csvwriter.s: csvwriter.cpp.s
+.PHONY : csvwriter.s
+
+# target to generate assembly for a file
+csvwriter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01Praktikum.dir/build.make CMakeFiles/01Praktikum.dir/csvwriter.cpp.s
+.PHONY : csvwriter.cpp.s
+
+jsonwriter.o: jsonwriter.cpp.o
+.PHONY : jsonwriter.o
+
+# target to build an object file
+jsonwriter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01Praktikum.dir/build.make CMakeFiles/01Praktikum.dir/jsonwriter.cpp.o
+.PHONY : jsonwriter.cpp.o
+
+jsonwriter.i: jsonwriter.cpp.i
+.PHONY : jsonwriter.i
+
+# target to preprocess a source file
+jsonwriter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01Praktikum.dir/build.make CMakeFiles/01Praktikum.dir/jsonwriter.cpp.i
+.PHONY : jsonwriter.cpp.i
+
+jsonwriter.s: jsonwriter.cpp.s
+.PHONY : jsonwriter.s
+
+# target to generate assembly for a file
+jsonwriter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01Praktikum.dir/build.make CMakeFiles/01Praktikum.dir/jsonwriter.cpp.s
+.PHONY : jsonwriter.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -342,6 +390,30 @@ stack.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/01Praktikum.dir/build.make CMakeFiles/01Praktikum.dir/stack.cpp.s
 .PHONY : stack.cpp.s
 
+writer.o: writer.cpp.o
+.PHONY : writer.o
+
+# target to build an object file
+writer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01Praktikum.dir/build.make CMakeFiles/01Praktikum.dir/writer.cpp.o
+.PHONY : writer.cpp.o
+
+writer.i: writer.cpp.i
+.PHONY : writer.i
+
+# target to preprocess a source file
+writer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01Praktikum.dir/build.make CMakeFiles/01Praktikum.dir/writer.cpp.i
+.PHONY : writer.cpp.i
+
+writer.s: writer.cpp.s
+.PHONY : writer.s
+
+# target to generate assembly for a file
+writer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01Praktikum.dir/build.make CMakeFiles/01Praktikum.dir/writer.cpp.s
+.PHONY : writer.cpp.s
+
 xmlloader.o: xmlloader.cpp.o
 .PHONY : xmlloader.o
 
@@ -365,6 +437,30 @@ xmlloader.s: xmlloader.cpp.s
 xmlloader.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/01Praktikum.dir/build.make CMakeFiles/01Praktikum.dir/xmlloader.cpp.s
 .PHONY : xmlloader.cpp.s
+
+xmlwriter.o: xmlwriter.cpp.o
+.PHONY : xmlwriter.o
+
+# target to build an object file
+xmlwriter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01Praktikum.dir/build.make CMakeFiles/01Praktikum.dir/xmlwriter.cpp.o
+.PHONY : xmlwriter.cpp.o
+
+xmlwriter.i: xmlwriter.cpp.i
+.PHONY : xmlwriter.i
+
+# target to preprocess a source file
+xmlwriter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01Praktikum.dir/build.make CMakeFiles/01Praktikum.dir/xmlwriter.cpp.i
+.PHONY : xmlwriter.cpp.i
+
+xmlwriter.s: xmlwriter.cpp.s
+.PHONY : xmlwriter.s
+
+# target to generate assembly for a file
+xmlwriter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01Praktikum.dir/build.make CMakeFiles/01Praktikum.dir/xmlwriter.cpp.s
+.PHONY : xmlwriter.cpp.s
 
 # Help Target
 help:
@@ -394,15 +490,27 @@ help:
 	@echo "... Node.o"
 	@echo "... Node.i"
 	@echo "... Node.s"
+	@echo "... csvwriter.o"
+	@echo "... csvwriter.i"
+	@echo "... csvwriter.s"
+	@echo "... jsonwriter.o"
+	@echo "... jsonwriter.i"
+	@echo "... jsonwriter.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
 	@echo "... stack.o"
 	@echo "... stack.i"
 	@echo "... stack.s"
+	@echo "... writer.o"
+	@echo "... writer.i"
+	@echo "... writer.s"
 	@echo "... xmlloader.o"
 	@echo "... xmlloader.i"
 	@echo "... xmlloader.s"
+	@echo "... xmlwriter.o"
+	@echo "... xmlwriter.i"
+	@echo "... xmlwriter.s"
 .PHONY : help
 
 

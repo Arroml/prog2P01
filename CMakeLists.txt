@@ -17,7 +17,11 @@ add_executable(01Praktikum main.cpp
         JSONLoader.cpp
         JSONLoader.h
         Node.cpp
-        Node.h)
+        Node.h
+        writer.h writer.cpp
+        csvwriter.h csvwriter.cpp
+        jsonwriter.h jsonwriter.cpp
+        xmlwriter.h xmlwriter.cpp)
 
 include(GNUInstallDirs)
 install(TARGETS 01Praktikum

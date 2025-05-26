@@ -3,7 +3,7 @@
 Node::Node(std::string name) : tagName(name) {}
 
 Node::~Node() {
-    deleteChildren();
+    deleteCildren();
 }
 
 void Node::addChild(Node* child) {
@@ -32,7 +32,7 @@ void Node::printNode(int level) {
 
 }
 
-void Node::deleteChildren(){
+void Node::deleteCildren(){
     for (Node* child : children){
         delete child;
     }

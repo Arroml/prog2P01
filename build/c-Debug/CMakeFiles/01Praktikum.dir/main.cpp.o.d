@@ -975,8 +975,12 @@ CMakeFiles/01Praktikum.dir/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/u8path.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/iostream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/map \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__tree \
   /Users/alexanderroman/Projekte/prog2/01Praktikum/xmlloader.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/fstream \
   /Users/alexanderroman/Projekte/prog2/01Praktikum/Loader.h \
   /Users/alexanderroman/Projekte/prog2/01Praktikum/Node.h \
-  /Users/alexanderroman/Projekte/prog2/01Praktikum/InvalidOperationException.h
+  /Users/alexanderroman/Projekte/prog2/01Praktikum/InvalidOperationException.h \
+  /Users/alexanderroman/Projekte/prog2/01Praktikum/CSVLoader.h \
+  /Users/alexanderroman/Projekte/prog2/01Praktikum/JSONLoader.h
