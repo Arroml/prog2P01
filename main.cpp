@@ -69,7 +69,6 @@ int main(int argv, char * argc[]) {
             }catch (InvalidOperationException e){
                 std::cerr << e.what();
             }
-
             break;
         }
 

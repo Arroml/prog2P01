@@ -11,7 +11,9 @@ bool JsonWriter::write(std::string filename){
 
     if (file.is_open()) {
 
-        file << "test123" << std::endl;
+        file << "e";
+            loader->getRoot()->printNode();;
+
 
 
     }
