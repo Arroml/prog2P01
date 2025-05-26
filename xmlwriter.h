@@ -7,6 +7,7 @@ class XMLWriter : public Writer
 {
 public:
     XMLWriter();
+    void write()override;
 };
 
 #endif // XMLWRITER_H

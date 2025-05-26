@@ -7,6 +7,7 @@ class CSVWriter : public Writer
 {
 public:
     CSVWriter();
+    void write()override;
 };
 
 #endif // CSVWRITER_H

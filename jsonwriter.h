@@ -7,6 +7,7 @@ class JsonWriter : public Writer
 {
 public:
     JsonWriter();
+    void write()override;
 };
 
 #endif // JSONWRITER_H
