@@ -7,6 +7,6 @@
 CSVLoader::CSVLoader(){}
 
 void CSVLoader::load(std::string file) {
-    std::cout << "Loading CSV file: " << file << std::endl;
+    std::cout << "Loading CSV file: " << std::endl;
 }
 

@@ -60,7 +60,8 @@ int main(int argv, char * argc[]) {
                         std::runtime_error er("loader Fehlgeschlagen");
                     }
                     std::cout << std::endl << std::endl << "eoffne neue File: "<< file << std::endl;
-                    loader->load("../XML_test_files/"+file);
+                    loader->load("../../XML_test_files/"+file);
+
 
                 }
             } catch (std::runtime_error er) {
