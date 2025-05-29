@@ -1,78 +1,45 @@
 {
     "X3D": {
-      "name": "X3D",
-      "children": [
         "Scene": {
-          "name": "Scene",
-          "children": [
             "Viewpoint": {
-              "name": "Viewpoint"
+
             },
             "Transform": {
-              "name": "Transform",
-              "children": [
                 "Shape": {
-                  "name": "Shape",
-                  "children": [
                     "Appearance": {
-                      "name": "Appearance",
-                      "children": [
                         "Material": {
-                          "name": "Material"
+
                         }
-                      ]
                     },
                     "Box": {
-                      "name": "Box"
+
                     }
-                  ]
                 }
-              ]
             },
             "Transform": {
-              "name": "Transform",
-              "children": [
                 "Shape": {
-                  "name": "Shape",
-                  "children": [
                     "Appearance": {
-                      "name": "Appearance",
-                      "children": [
                         "Material": {
-                          "name": "Material"
+
                         }
-                      ]
                     },
                     "Sphere": {
-                      "name": "Sphere"
+
                     }
-                  ]
                 }
-              ]
             },
             "Transform": {
-              "name": "Transform",
-              "children": [
                 "Shape": {
-                  "name": "Shape",
-                  "children": [
                     "Appearance": {
-                      "name": "Appearance",
-                      "children": [
                         "Material": {
-                          "name": "Material"
+
                         }
-                      ]
                     },
                     "Cone": {
-                      "name": "Cone"
+
                     }
-                  ]
                 }
-              ]
             }
-          ]
         }
-      ]
     }
 }

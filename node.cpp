@@ -54,13 +54,8 @@ void Node::printNodeInFile(std::ofstream& of, int level, FileType file){
     case JSON: {
         std::string indent(level * 2, ' ');
         of << indent << "\"" << tagName << "\": {\n";
-
-        of << indent << "  \"name\": \"" << tagName << "\"";
-
         if (!children.empty()) {
-            of << ",\n" << indent << "  \"children\": [\n";
-
-            for (size_t i = 0; i < children.size(); ++i) {
+            for (int i = 0; i < children.size(); ++i) {
                 children[i]->printNodeInFile(of, level + 2, file);
                 if (i < children.size() - 1)
                     of << ",\n";
@@ -68,7 +63,6 @@ void Node::printNodeInFile(std::ofstream& of, int level, FileType file){
                     of << "\n";
             }
 
-            of << indent << "  ]\n";
         } else {
             of << "\n";
         }
