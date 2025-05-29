@@ -9,10 +9,14 @@ Loader::Loader():root(nullptr) {
 }
 
 
-void Loader::load(std::string name) {
+void Loader::load(std::string name, int flag) {
 
 }
 
 Loader::~Loader() {
 
+}
+
+Node * Loader::getRoot(){
+    return this->root;
 }

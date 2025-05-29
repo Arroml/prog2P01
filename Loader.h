@@ -15,7 +15,7 @@ protected:
 
     public:
     Loader();
-    virtual void load(std::string fileName) = 0;
+    virtual void load(std::string fileName, int flag) = 0;
     Node* getRoot();
     virtual ~Loader();
     void initRegisteredLoaders();

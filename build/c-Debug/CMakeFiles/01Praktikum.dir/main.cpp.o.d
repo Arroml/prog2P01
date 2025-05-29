@@ -983,4 +983,8 @@ CMakeFiles/01Praktikum.dir/main.cpp.o: \
   /Users/alexanderroman/Projekte/prog2/01Praktikum/Node.h \
   /Users/alexanderroman/Projekte/prog2/01Praktikum/InvalidOperationException.h \
   /Users/alexanderroman/Projekte/prog2/01Praktikum/CSVLoader.h \
-  /Users/alexanderroman/Projekte/prog2/01Praktikum/JSONLoader.h
+  /Users/alexanderroman/Projekte/prog2/01Praktikum/JSONLoader.h \
+  /Users/alexanderroman/Projekte/prog2/01Praktikum/writer.h \
+  /Users/alexanderroman/Projekte/prog2/01Praktikum/csvwriter.h \
+  /Users/alexanderroman/Projekte/prog2/01Praktikum/jsonwriter.h \
+  /Users/alexanderroman/Projekte/prog2/01Praktikum/xmlwriter.h

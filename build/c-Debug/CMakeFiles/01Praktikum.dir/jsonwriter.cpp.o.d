@@ -981,4 +981,6 @@ CMakeFiles/01Praktikum.dir/jsonwriter.cpp.o: \
   /Users/alexanderroman/Projekte/prog2/01Praktikum/Loader.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/map \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__tree \
-  /Users/alexanderroman/Projekte/prog2/01Praktikum/Node.h
+  /Users/alexanderroman/Projekte/prog2/01Praktikum/Node.h \
+  /Users/alexanderroman/Projekte/prog2/01Praktikum/JSONLoader.h \
+  /Users/alexanderroman/Projekte/prog2/01Praktikum/xmlloader.h

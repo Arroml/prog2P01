@@ -11,7 +11,7 @@
 class CSVLoader: public Loader {
 public:
     CSVLoader();
-    void load(std::string file) override;
+    void load(std::string file, int flag) override;
 };
 
 

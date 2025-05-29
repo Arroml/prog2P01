@@ -9,7 +9,7 @@
 
 class JSONLoader: public Loader {
 public:
-    void load(std::string file) override;
+    void load(std::string file, int flag) override;
 };
 
 

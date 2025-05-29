@@ -7,6 +7,6 @@
 
 
 
-void JSONLoader::load(std::string file) {
+void JSONLoader::load(std::string file, int flag) {
     std::cout << "Loading Json file: " << file << std::endl;
 }

@@ -3,6 +3,7 @@
 #include "InvalidOperationException.h"
 #include "stack.h"
 #include "InvalidOperationException.h"
+#include "Node.h"
 
 XMLLoader::XMLLoader() {}
 
@@ -21,8 +22,11 @@ std::string XMLLoader::getTagName(std::string oldName){
     return newName;
 }
 
-void XMLLoader::load(std::string file)
+void XMLLoader::load(std::string file, int flag)
 {
+    Node::FileType fileType;
+
+    std::ofstream of;
 
     std::vector<Node*> nodestack;
 
@@ -135,7 +139,6 @@ void XMLLoader::load(std::string file)
                         for (int j = i; j<line.size(); j++){
 
                             if (line[j] == ' '){
-
                                 j++;
                                 std::string name, wert;
                                 while (line[j] != '=' && j < line.size()){
@@ -148,7 +151,6 @@ void XMLLoader::load(std::string file)
                                     wert += line[j];
                                     j++;
                                 }
-                                std::cout <<zahl << "  "<< name << "  " << wert << std::endl;
                             }
                         }
                     }
@@ -178,20 +180,30 @@ void XMLLoader::load(std::string file)
                 std::cout << "Falsche Eingabe\n";
             }
         }
+
         if (!stack.isEmpty()){
             std::cout << "Falsch in line: " << zahl - 1 << std::endl;
 
 
-            this->root->printNode();
-
+            this->root->printNode(of, 0, fileType);
             delete root;
             return;
 
         }
         std::cout << "Richtig\n";
 
-        this->root->printNode();
-        delete root;
+
+        if (flag == 1){
+
+            this->root->printNode(of, 0, fileType);
+
+        } if (flag == 2) {
+            std::cout << "Richtig\n";
+            std::ofstream ofs("bla.json");
+            this->root->printNodeInFile(ofs);
+        }
+
+
         return;
     }
     throw std::runtime_error("Datei konnte nicht geoeffnet werden \n");
