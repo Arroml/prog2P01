@@ -1,0 +1,53 @@
+{
+    "X3D": {
+      "name": "X3D",
+      "children": [
+        "Scene": {
+          "name": "Scene",
+          "children": [
+            "Transform": {
+              "name": "Transform",
+              "children": [
+                "Shape": {
+                  "name": "Shape",
+                  "children": [
+                    "Box": {
+                      "name": "Box"
+                    }
+                  ]
+                }
+              ]
+            },
+            "Transform": {
+              "name": "Transform",
+              "children": [
+                "Shape": {
+                  "name": "Shape",
+                  "children": [
+                    "Appearance": {
+                      "name": "Appearance"
+                    },
+                    "Sphere": {
+                      "name": "Sphere"
+                    }
+                  ]
+                }
+              ]
+            },
+            "Transform": {
+              "name": "Transform",
+              "children": [
+                "Shape": {
+                  "name": "Shape",
+                  "children": [
+                    "Cone": {
+                      "name": "Cone"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }}
