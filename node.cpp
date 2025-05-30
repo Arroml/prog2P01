@@ -65,8 +65,20 @@ void Node::printNodeInFile(std::ofstream& of, int level, FileType file){
         int leerzeichen= tagName.find(' ');
         if (leerzeichen != std::string::npos){
             std::string baseName = tagName.substr(0, leerzeichen);
+            std::string rest = tagName.substr(leerzeichen + 1);
             tagName = baseName;
+            std::stringstream ss(rest);
+            std::string part;
+            while (ss >> part){
+                int gleich = part.find('=');
+                if (gleich != std::string::npos){
+                    std::string begin = part.substr(0, gleich);
+                    std::string end = part.substr(gleich +1);
+                    Attribute[begin] = end;
+                }
+            }
         }
+
 
 
         for (int i = 0; i < level; i++) {
@@ -85,6 +97,18 @@ void Node::printNodeInFile(std::ofstream& of, int level, FileType file){
             of << "}";
         } else {
             of << ",\n";
+
+            if (!Attribute.empty()){
+
+                for (auto atribute:Attribute){
+
+                    for (int i = 0; i < level; i++) {
+                        of << "  ";
+                    }
+                    of << "\"" << atribute.first << "\":" << " " <<atribute.second;
+                    of << "\n";
+                }
+            }
             for (int i = 0; i < level + 1; i++) {
                 of << "  ";
             }
