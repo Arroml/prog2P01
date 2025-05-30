@@ -1,5 +1,6 @@
 #include "Node.h"
 #include <fstream>
+#include <sstream>
 
 Node::Node(std::string name) : tagName(name) {}
 
@@ -40,6 +41,15 @@ void Node::printNode(std::ofstream& os, int level, FileType File) {
 }
 
 void Node::printNodeInFile(std::ofstream& of, int level, FileType file){
+
+    if (tagName == "?xml version=\"1.0\" encoding=\"UTF-8\"?"){
+        for (auto child : children){
+
+            child->printNodeInFile(of, level + 1, file);
+        }
+    }
+
+
     if (tagName.empty()) {
         return;
     }
@@ -52,21 +62,21 @@ void Node::printNodeInFile(std::ofstream& of, int level, FileType file){
 
     switch (file) {
     case JSON: {
+        int leerzeichen= tagName.find(' ');
+        if (leerzeichen != std::string::npos){
+            std::string baseName = tagName.substr(0, leerzeichen);
+            tagName = baseName;
+        }
+
+
         for (int i = 0; i < level; i++) {
             of << "  ";
         }
-        // name-Block
         of << "{\n";
         for (int i = 0; i < level + 1; i++) {
             of << "  ";
         }
         of << "\"name\": \"" << tagName << "\"";
-        for (auto& [key, value] : Attribute) {
-            of << ",\n";
-            for (int i = 0; i < level + 1; i++) of << "  ";
-            of << "\"" << key << "\": \"" << value << "\"";
-        }
-        // children-Block
         if (children.empty()) {
             of << "\n";
             for (int i = 0; i < level; i++) {
@@ -95,8 +105,9 @@ void Node::printNodeInFile(std::ofstream& of, int level, FileType file){
                 of << "  ";
             }
             of << "}";
-        }
+
     }        break;
+    }
     case NONE:{
         std::cout << "keine Datei" << std::endl;
         break;
@@ -105,7 +116,6 @@ void Node::printNodeInFile(std::ofstream& of, int level, FileType file){
     default:
         break;
     }
-
 }
 
 

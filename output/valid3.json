@@ -1,6 +1,3 @@
-{
-  "name": "?xml version="1.0" encoding="UTF-8"?",
-  "children": [
   {
     "name": "X3D",
     "children": [
@@ -8,10 +5,10 @@
       "name": "Scene",
       "children": [
       {
-        "name": "Viewpoint position="0 0 12""
+        "name": "Viewpoint"
       },
       {
-        "name": "Transform translation="-3 0 0"",
+        "name": "Transform",
         "children": [
         {
           "name": "Shape",
@@ -20,7 +17,7 @@
             "name": "Appearance",
             "children": [
             {
-              "name": "Material diffuseColor="1 0 0" specularColor=".4 .4 .4""
+              "name": "Material"
             }
             ]
           },
@@ -32,7 +29,7 @@
         ]
       },
       {
-        "name": "Transform translation="0 0 0"",
+        "name": "Transform",
         "children": [
         {
           "name": "Shape",
@@ -41,7 +38,7 @@
             "name": "Appearance",
             "children": [
             {
-              "name": "Material diffuseColor="0 1 0" specularColor=".4 .4 .4""
+              "name": "Material"
             }
             ]
           },
@@ -53,7 +50,7 @@
         ]
       },
       {
-        "name": "Transform translation="3 0 0"",
+        "name": "Transform",
         "children": [
         {
           "name": "Shape",
@@ -62,7 +59,85 @@
             "name": "Appearance",
             "children": [
             {
-              "name": "Material diffuseColor="0 0 1" specularColor=".4 .4 .4""
+              "name": "Material"
+            }
+            ]
+          },
+          {
+            "name": "Cone"
+          }
+          ]
+        }
+        ]
+      }
+      ]
+    }
+    ]
+  }{
+  "name": "?xml",
+  "children": [
+  {
+    "name": "X3D",
+    "children": [
+    {
+      "name": "Scene",
+      "children": [
+      {
+        "name": "Viewpoint"
+      },
+      {
+        "name": "Transform",
+        "children": [
+        {
+          "name": "Shape",
+          "children": [
+          {
+            "name": "Appearance",
+            "children": [
+            {
+              "name": "Material"
+            }
+            ]
+          },
+          {
+            "name": "Box"
+          }
+          ]
+        }
+        ]
+      },
+      {
+        "name": "Transform",
+        "children": [
+        {
+          "name": "Shape",
+          "children": [
+          {
+            "name": "Appearance",
+            "children": [
+            {
+              "name": "Material"
+            }
+            ]
+          },
+          {
+            "name": "Sphere"
+          }
+          ]
+        }
+        ]
+      },
+      {
+        "name": "Transform",
+        "children": [
+        {
+          "name": "Shape",
+          "children": [
+          {
+            "name": "Appearance",
+            "children": [
+            {
+              "name": "Material"
             }
             ]
           },

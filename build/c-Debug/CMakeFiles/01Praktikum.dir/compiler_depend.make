@@ -3951,6 +3951,7 @@ CMakeFiles/01Praktikum.dir/Node.cpp.o: /Users/alexanderroman/Projekte/prog2/01Pr
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/print \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/queue \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/ratio \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/sstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/stack \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/stdexcept \
@@ -11009,6 +11010,8 @@ CMakeFiles/01Praktikum.dir/xmlwriter.cpp.o: /Users/alexanderroman/Projekte/prog2
 /Users/alexanderroman/Projekte/prog2/01Praktikum/csvwriter.h:
 
 /Users/alexanderroman/Projekte/prog2/01Praktikum/csvwriter.cpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/sstream:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/iomanip:
 
