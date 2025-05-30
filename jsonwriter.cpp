@@ -34,9 +34,7 @@ bool JsonWriter::write(std::string filename){
             std::cout << "keine Root" << std::endl;
             return false;
         }
-        file << "{\n";
-        root->printNodeInFile(file,2, fileType);
-        file << "\n"<< "}\n";
+        root->printNodeInFile(file,0, fileType);
 
         return true;
     }

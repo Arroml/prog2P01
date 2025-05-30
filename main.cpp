@@ -122,9 +122,7 @@ int main(int argv, char * argc[]) {
         case 4:
         {
             std::vector<std::string> files{
-                "basic.json", "broken1.xml", "broken2.xml", "broken3.xml", "broken4.xml",
-                "broken5.xml", "broken6.xml", "broken7.xml", "broken8.xml", "broken9.xml",
-                "valid1.xml", "valid2.xml", "valid3.xml", "stud.csv"
+                "valid1.xml", "valid2.xml", "valid3.xml"
             };
 
             for (auto file : files){
@@ -132,7 +130,6 @@ int main(int argv, char * argc[]) {
                 std::string fileEnding = file.substr(stelle +1 );
                 std::string fileStart = file.substr(0, stelle);
                 if (fileEnding == "xml"){
-                    std::cout << file << std::endl;
                     JsonWriter writer;
                     writer.write(file);
                 }

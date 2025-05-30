@@ -21,7 +21,7 @@ class Node {
     Node* removeChild();
     void printNode(std::ofstream &os,int level = 0, FileType = NONE);
 
-    void printNodeInFile(std::ofstream &of, int level = 0, FileType = NONE);
+    void printNodeInFile(std::ofstream &of, int level = 0, FileType = NONE );
 
     void deleteCildren();
 
@@ -30,6 +30,7 @@ class Node {
     bool hasAttribute(const std::string &name);
     std::string getAttribute(const std::string &name);
     void printAttributes(std::ostream& out, int level = 0);
+    int getChildLen();
 };
 
 

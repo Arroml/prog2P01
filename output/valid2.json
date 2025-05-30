@@ -1,45 +1,76 @@
 {
-    "X3D": {
-        "Scene": {
-            "Viewpoint": {
-
-            },
-            "Transform": {
-                "Shape": {
-                    "Appearance": {
-                        "Material": {
-
-                        }
-                    },
-                    "Box": {
-
-                    }
-                }
-            },
-            "Transform": {
-                "Shape": {
-                    "Appearance": {
-                        "Material": {
-
-                        }
-                    },
-                    "Sphere": {
-
-                    }
-                }
-            },
-            "Transform": {
-                "Shape": {
-                    "Appearance": {
-                        "Material": {
-
-                        }
-                    },
-                    "Cone": {
-
-                    }
-                }
-            }
+  "name": "X3D",
+  "children": [
+  {
+    "name": "Scene",
+    "children": [
+    {
+      "name": "Viewpoint"
+    },
+    {
+      "name": "Transform",
+      "children": [
+      {
+        "name": "Shape",
+        "children": [
+        {
+          "name": "Appearance",
+          "children": [
+          {
+            "name": "Material"
+          }
+          ]
+        },
+        {
+          "name": "Box"
         }
+        ]
+      }
+      ]
+    },
+    {
+      "name": "Transform",
+      "children": [
+      {
+        "name": "Shape",
+        "children": [
+        {
+          "name": "Appearance",
+          "children": [
+          {
+            "name": "Material"
+          }
+          ]
+        },
+        {
+          "name": "Sphere"
+        }
+        ]
+      }
+      ]
+    },
+    {
+      "name": "Transform",
+      "children": [
+      {
+        "name": "Shape",
+        "children": [
+        {
+          "name": "Appearance",
+          "children": [
+          {
+            "name": "Material"
+          }
+          ]
+        },
+        {
+          "name": "Cone"
+        }
+        ]
+      }
+      ]
     }
+    ]
+  }
+  ]
 }

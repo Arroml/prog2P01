@@ -52,23 +52,52 @@ void Node::printNodeInFile(std::ofstream& of, int level, FileType file){
 
     switch (file) {
     case JSON: {
-        std::string indent(level * 2, ' ');
-        of << indent << "\"" << tagName << "\": {\n";
-        if (!children.empty()) {
-            for (int i = 0; i < children.size(); ++i) {
-                children[i]->printNodeInFile(of, level + 2, file);
-                if (i < children.size() - 1)
-                    of << ",\n";
-                else
-                    of << "\n";
-            }
 
-        } else {
-            of << "\n";
+        for (int i = 0; i < level; i++) {
+            of << "  ";
         }
 
-        of << indent << "}";
+        // name-Block
+        of << "{\n";
 
+        for (int i = 0; i < level + 1; i++) {
+            of << "  ";
+        }
+        of << "\"name\": \"" << tagName << "\"";
+
+        // children-Block
+        if (children.empty()) {
+            of << "\n";
+            for (int i = 0; i < level; i++) {
+                of << "  ";
+            }
+            of << "}";
+        } else {
+            of << ",\n";
+            for (int i = 0; i < level + 1; i++) {
+                of << "  ";
+            }
+            of << "\"children\": [\n";
+
+            for (int i = 0; i < children.size(); i++) {
+                children[i]->printNodeInFile(of, level + 1, file);
+                if (i < children.size() - 1) {
+                    of << ",\n";
+                } else {
+                    of << "\n";
+                }
+            }
+
+            for (int i = 0; i < level + 1; i++) {
+                of << "  ";
+            }
+            of << "]\n";
+
+            for (int i = 0; i < level; i++) {
+                of << "  ";
+            }
+            of << "}";
+        }
     }        break;
     case NONE:{
         std::cout << "keine Datei" << std::endl;
@@ -109,3 +138,7 @@ std::string Node::getAttribute(const std::string &name){
 }
 
 
+int Node::getChildLen()
+{
+    return children.size();
+}
