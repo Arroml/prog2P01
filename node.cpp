@@ -52,19 +52,20 @@ void Node::printNodeInFile(std::ofstream& of, int level, FileType file){
 
     switch (file) {
     case JSON: {
-
         for (int i = 0; i < level; i++) {
             of << "  ";
         }
-
         // name-Block
         of << "{\n";
-
         for (int i = 0; i < level + 1; i++) {
             of << "  ";
         }
         of << "\"name\": \"" << tagName << "\"";
-
+        for (auto& [key, value] : Attribute) {
+            of << ",\n";
+            for (int i = 0; i < level + 1; i++) of << "  ";
+            of << "\"" << key << "\": \"" << value << "\"";
+        }
         // children-Block
         if (children.empty()) {
             of << "\n";
@@ -78,7 +79,6 @@ void Node::printNodeInFile(std::ofstream& of, int level, FileType file){
                 of << "  ";
             }
             of << "\"children\": [\n";
-
             for (int i = 0; i < children.size(); i++) {
                 children[i]->printNodeInFile(of, level + 1, file);
                 if (i < children.size() - 1) {
@@ -87,12 +87,10 @@ void Node::printNodeInFile(std::ofstream& of, int level, FileType file){
                     of << "\n";
                 }
             }
-
             for (int i = 0; i < level + 1; i++) {
                 of << "  ";
             }
             of << "]\n";
-
             for (int i = 0; i < level; i++) {
                 of << "  ";
             }

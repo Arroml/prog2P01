@@ -18,13 +18,13 @@ std::string XMLLoader::getTagName(std::string oldName){
         newName+=oldName[i];
         i++;
     }
-   // std::cout << newName;
+    // std::cout << newName;
     return newName;
 }
 
 void XMLLoader::load(std::string file, int flag)
 {
-    Node::FileType fileType;
+    Node::FileType fileType = Node::FileType::XML;
 
     std::ofstream of;
 
@@ -47,7 +47,7 @@ void XMLLoader::load(std::string file, int flag)
             switch (type) {
             case END_TAG:
                 if (stack.isEmpty()){
-                    std::cout << "ein Push wurder versucht" << std::endl;
+                    std::cout << "ein Push wurde versucht" << std::endl;
                     return;
                 }
                 if (! stack.isEmpty()){
@@ -80,7 +80,7 @@ void XMLLoader::load(std::string file, int flag)
                         std::cout<<"Falsch in line : " << zahl-1 << std::endl;
                         std::cout << line << std::endl << std::endl;
 
-                     //   this->root->printNode();
+                        //   this->root->printNode();
                         delete root;
                         return;
                     }
@@ -181,7 +181,7 @@ void XMLLoader::load(std::string file, int flag)
             }
         }
 
-        if (!stack.isEmpty()){
+        if (!stack.isEmpty() && flag == 0){
             std::cout << "Falsch in line: " << zahl - 1 << std::endl;
 
 
@@ -200,7 +200,7 @@ void XMLLoader::load(std::string file, int flag)
         } if (flag == 2) {
             std::cout << "Richtig\n";
             std::ofstream ofs("bla.json");
-            this->root->printNodeInFile(ofs);
+            this->root->printNode(ofs);
         }
 
 
