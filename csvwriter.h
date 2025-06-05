@@ -7,7 +7,7 @@ class CSVWriter : public Writer
 {
 public:
     CSVWriter();
-    bool write(std::string file)override;
+    bool write(std::string file) override;
 };
 
 #endif // CSVWRITER_H

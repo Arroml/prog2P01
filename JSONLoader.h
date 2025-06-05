@@ -6,12 +6,10 @@
 #define JSONLOADER_H
 #include "Loader.h"
 
-
-class JSONLoader: public Loader {
+class JSONLoader : public Loader
+{
 public:
     void load(std::string file, int flag) override;
 };
-
-
 
 #endif //JSONLOADER_H

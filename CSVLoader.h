@@ -6,13 +6,11 @@
 #define CSVLOADER_H
 #include "Loader.h"
 
-
-
-class CSVLoader: public Loader {
+class CSVLoader : public Loader
+{
 public:
     CSVLoader();
     void load(std::string file, int flag) override;
 };
-
 
 #endif //CSVLOADER_H

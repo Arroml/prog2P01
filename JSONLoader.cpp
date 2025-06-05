@@ -4,9 +4,7 @@
 
 #include "JSONLoader.h"
 
-
-
-
-void JSONLoader::load(std::string file, int flag) {
+void JSONLoader::load(std::string file, int flag)
+{
     std::cout << "Loading Json file: " << file << std::endl;
 }

@@ -4,19 +4,15 @@
 
 #include "Loader.h"
 
-Loader::Loader():root(nullptr) {
+Loader::Loader()
+    : root(nullptr)
+{}
 
-}
+void Loader::load(std::string name, int flag) {}
 
+Loader::~Loader() {}
 
-void Loader::load(std::string name, int flag) {
-
-}
-
-Loader::~Loader() {
-
-}
-
-Node * Loader::getRoot(){
+Node *Loader::getRoot()
+{
     return this->root;
 }

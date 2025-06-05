@@ -4,9 +4,9 @@
 
 #include "CSVLoader.h"
 
-CSVLoader::CSVLoader(){}
+CSVLoader::CSVLoader() {}
 
-void CSVLoader::load(std::string file, int flag) {
+void CSVLoader::load(std::string file, int flag)
+{
     std::cout << "Loading CSV file: " << std::endl;
 }
-

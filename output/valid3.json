@@ -1,5 +1,7 @@
 {
-  "name": "?xml version="1.0" encoding="UTF-8"?",
+  "name": "?xml ",
+  "encoding": "UTF-8",
+  "version": "1.0",
   "children": [
   {
     "name": "X3D",
@@ -8,10 +10,12 @@
       "name": "Scene",
       "children": [
       {
-        "name": "Viewpoint position="0 0 12""
+        "name": "Viewpoint ",
+        "position": "0 0 12"
       },
       {
-        "name": "Transform translation="-3 0 0"",
+        "name": "Transform ",
+        "translation": "-3 0 0",
         "children": [
         {
           "name": "Shape",
@@ -20,7 +24,9 @@
             "name": "Appearance",
             "children": [
             {
-              "name": "Material diffuseColor="1 0 0" specularColor=".4 .4 .4""
+              "name": "Material ",
+              "diffuseColor": "1 0 0",
+              "specularColor": ".4 .4 .4"
             }
             ]
           },
@@ -32,7 +38,8 @@
         ]
       },
       {
-        "name": "Transform translation="0 0 0"",
+        "name": "Transform ",
+        "translation": "0 0 0",
         "children": [
         {
           "name": "Shape",
@@ -41,7 +48,9 @@
             "name": "Appearance",
             "children": [
             {
-              "name": "Material diffuseColor="0 1 0" specularColor=".4 .4 .4""
+              "name": "Material ",
+              "diffuseColor": "0 1 0",
+              "specularColor": ".4 .4 .4"
             }
             ]
           },
@@ -53,7 +62,8 @@
         ]
       },
       {
-        "name": "Transform translation="3 0 0"",
+        "name": "Transform ",
+        "translation": "3 0 0",
         "children": [
         {
           "name": "Shape",
@@ -62,7 +72,9 @@
             "name": "Appearance",
             "children": [
             {
-              "name": "Material diffuseColor="0 0 1" specularColor=".4 .4 .4""
+              "name": "Material ",
+              "diffuseColor": "0 0 1",
+              "specularColor": ".4 .4 .4"
             }
             ]
           },

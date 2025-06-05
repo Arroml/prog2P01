@@ -4,22 +4,21 @@
 
 #ifndef LOADER_H
 #define LOADER_H
+#include "Node.h"
 #include <iostream>
 #include <map>
-#include "Node.h"
 
-
-class Loader {
+class Loader
+{
 protected:
-    Node* root;
+    Node *root;
 
-    public:
+public:
     Loader();
     virtual void load(std::string fileName, int flag) = 0;
-    Node* getRoot();
+    Node *getRoot();
     virtual ~Loader();
     void initRegisteredLoaders();
-
 };
 
 #endif //LOADER_H

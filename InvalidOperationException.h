@@ -7,11 +7,12 @@
 #include <exception>
 #include <stdexcept>
 
-
-class InvalidOperationException: public std::logic_error {
-    public:
-    InvalidOperationException(const std::string & msg): logic_error(msg){}
+class InvalidOperationException : public std::logic_error
+{
+public:
+    InvalidOperationException(const std::string &msg)
+        : logic_error(msg)
+    {}
 };
-
 
 #endif //INVALIDOPERATIONEXCEPTION_H

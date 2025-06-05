@@ -1,14 +1,14 @@
 #ifndef WRITER_H
 #define WRITER_H
-#include <iostream>
-#include <fstream>
 #include "Loader.h"
+#include <fstream>
+#include <iostream>
 
 class Writer
 {
 public:
     Writer();
-    virtual bool write(std::string file)=0;
+    virtual bool write(std::string file) = 0;
 };
 
 #endif // WRITER_H
