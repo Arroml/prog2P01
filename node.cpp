@@ -82,7 +82,8 @@ void Node::printNodeInFile(std::ofstream &of, int level, FileType file)
                 of << "  ";
             }
             of << "}";
-        } else {
+        }
+        else {
             of << ",\n";
             for (int i = 0; i < level + 1; i++) {
                 of << "  ";
@@ -106,6 +107,84 @@ void Node::printNodeInFile(std::ofstream &of, int level, FileType file)
             of << "}";
         }
     } break;
+    case XML: {
+      /*  //parent
+        for (int i = 0; i < level + 1; i++) {
+            of << "  ";
+        }
+        std::string name = diffuseTagName(tagName);
+        of << '<' << name << "";
+        for (auto &[key, value] : Attribute) {
+            of << key << "= \"" << value << "\"";
+        }
+        //child
+        if (children.empty()) {
+            of <<"><" + name + "/>\n";
+            for (int i = 0; i < level-1; i++) {
+                of << "  ";
+            }
+        }
+        else {
+            of << ">\n";
+            for (int i = 0; i < level + 1; i++) {
+                of << "  ";
+            }
+            for (int i = 0; i < children.size(); i++) {
+                children[i]->printNodeInFile(of, level + 1, file);
+            }
+            for (int i = 0; i < level; i++) {
+                of << "  ";
+            }
+            name = diffuseTagName(tagName);
+            of << '<' << name << "/>\n";
+        }
+
+
+    } break;*/
+        std::string name = diffuseTagName(tagName);
+
+        for (int i = 0; i < level; i++) {
+            of << "  ";
+        }
+        // name-Block
+        if (name[0] == ' ') {
+            name.erase(name.begin());
+        }
+        if (!children.empty()){
+        of << "<" << name;
+        }
+        else {
+            for (int i = 0; i < level-1; i++) {
+                of << "  ";
+            }
+            of << "<" << name;
+        }
+
+        if (!this->Attribute.empty()) {
+            for (auto &[key, value] : Attribute) {
+                of << key << "=\"" << value << "\"";
+            }
+        }
+        // children-Block
+        if (children.empty()) {
+            of << "/>\n";
+            for (int i = 0; i < level-2; i++) {
+                of << "  ";
+            }
+        } else {
+            of << ">\n";
+            for (int i = 0; i < level + 1; i++) {
+                of << "  ";
+            }
+            for (int i = 0; i < children.size(); i++) {
+                children[i]->printNodeInFile(of, level + 1, file);
+            }
+            for (int i = 0; i < level + 1; i++) {
+                of << "  ";
+            }
+
+            of << "</" << name << ">\n";
+        }}break;
     case NONE: {
         std::cout << "keine Datei" << std::endl;
         break;

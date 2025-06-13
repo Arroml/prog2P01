@@ -3,13 +3,13 @@
 
 #include "JSONLoader.h"
 #include "writer.h"
-#include <filesystem>
+
 
 class JsonWriter : public Writer
 {
 public:
     JsonWriter();
-    bool write(std::string file) override;
+    bool write(std::string filename) override;
 };
 
 #endif // JSONWRITER_H

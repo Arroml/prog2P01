@@ -125,13 +125,25 @@ int main(int argv, char *argc[])
         } break;
         case 4: {
             std::vector<std::string> files{ "valid3.xml"}; // "valid1.xml", "valid2.xml",
+            std::string filetype;
 
             for (auto file : files) {
                 int stelle = file.find('.');
                 std::string fileEnding = file.substr(stelle + 1);
                 std::string fileStart = file.substr(0, stelle);
-                if (fileEnding == "xml") {
+                std::cout<<"Json oder XML (all small)?"<<std::endl;
+                std::cin>>filetype;
+                if (filetype == "json") {
                     JsonWriter writer;
+                    if(writer.write(file)){
+                        std::cout<<"Writing Complete!\n";
+                    }
+                    else{
+                        std::cout<<"ERROR in Writing\n";
+                    }
+                }
+                if (filetype == "xml"){
+                    XMLWriter writer;
                     if(writer.write(file)){
                         std::cout<<"Writing Complete!\n";
                     }
